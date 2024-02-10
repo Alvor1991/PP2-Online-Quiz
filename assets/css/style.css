@@ -1,3 +1,10 @@
 body {
     background: blue;
 }
+
+.quiz-container {
+    background: #fff;
+    width: 80%;
+    max-width: 700px;
+    margin: 100px auto 0;
+  }
