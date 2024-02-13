@@ -30,6 +30,7 @@ function displayQuestion(){
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
 
     currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
 
 
 
