@@ -23,3 +23,7 @@ function beginQuiz(){
     nextButton.innerHTML = "Next";
     displayQuestion();
 }
+
+function displayQuestion(){
+   
+}
