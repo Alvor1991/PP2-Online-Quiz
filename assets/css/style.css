@@ -16,15 +16,17 @@ body {
     border-bottom: 1px solid;
     padding-bottom: 20px;
     font-weight: 600;
+    color: black;
   }
 
   .quiz {
     padding: 15px 0;
-    font-weight: 700;
   }
 
   .quiz h2 {
     font-size: 15px;
+    color: black;
+    font-weight: 700;
   }
 
   .btn {
@@ -38,4 +40,5 @@ body {
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 600;
+    color: black;
   }
