@@ -31,6 +31,8 @@ function displayQuestion(){
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
 
 
 
