@@ -27,5 +27,6 @@ function beginQuiz(){
 function displayQuestion(){
     let currentQuestion = quiz[questionIndex];
     let questionNo = questionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
    
 }
