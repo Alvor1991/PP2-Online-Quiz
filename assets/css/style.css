@@ -14,11 +14,13 @@ body {
   .quiz-container h1 {
     font-size: 25px;
     border-bottom: 1px solid;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    font-weight: 600;
   }
 
   .quiz {
     padding: 15px 0;
+    font-weight: 700;
   }
 
   .quiz h2 {
@@ -28,11 +30,12 @@ body {
   .btn {
     background: #fff;
     width: 100%;
-    border: 1px solid #222;
-    padding: 15px;
     margin: 20px 0;
-    text-align: left;
+    padding: 15px;
+    border: 1px solid #222;
     border-radius: 5px;
+    text-align: left;
     cursor: pointer;
     transition: all 0.3s;
+    font-weight: 600;
   }
