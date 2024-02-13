@@ -25,5 +25,6 @@ function beginQuiz(){
 }
 
 function displayQuestion(){
+    let currentQuestion = quiz[questionIndex];
    
 }
