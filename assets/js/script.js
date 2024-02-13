@@ -16,3 +16,10 @@ const nextButton = document.getElementById("next-btn");
 
 let questionIndex = 0;
 let playerScore = 0;
+
+function beginQuiz(){
+    questionIndex = 0;
+    playerScore = 0;
+    nextButton.innerHTML = "Next";
+    displayQuestion();
+}
