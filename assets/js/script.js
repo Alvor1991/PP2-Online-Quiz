@@ -7,8 +7,38 @@ const quiz = [
             { text: "Answer3", correct: true},
             { text: "Answer4", correct: false},
         ]
-    }
-]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: false},
+            { text: "Answer2", correct: true},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: false},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: true},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
