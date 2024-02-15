@@ -81,4 +81,9 @@ function clearAnswer(){
     }
 }
 
+function selectAnswer(e){
+    
+}
+
+
 beginQuiz();
