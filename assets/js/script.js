@@ -82,7 +82,8 @@ function clearAnswer(){
 }
 
 function selectAnswer(e){
-    
+    const clickedButton = e.target;
+    const isCorrect = clickedButton.dataset.correct === "true";
 }
 
 
