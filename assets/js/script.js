@@ -99,16 +99,21 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+function displayScore(){
+    clearAnswer();
+    questionElement.innerHTML = `You scored ${playerScore} out of ${quiz.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
 
 function handleNextButton(){
     questionIndex++;
     if(questionIndex < quiz.length){
         displayQuestion();
     }else{
-        showScore();
+        displayScore();
     }
 }
-
 
 nextButton.addEventListener("click", ()=>{
     if(questionIndex < quiz.length){
