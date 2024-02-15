@@ -69,8 +69,12 @@ function displayQuestion(){
 }
 
 function clearAnswer(){
-   
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
+
 
 
 
