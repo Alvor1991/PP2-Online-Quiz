@@ -99,5 +99,14 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+nextButton.addEventListener("click", ()=>{
+    if(questionIndex < quiz.length){
+        handleNextButton();
+    }else{
+        beginQuiz();
+    }
+});
+
+
 
 beginQuiz();
