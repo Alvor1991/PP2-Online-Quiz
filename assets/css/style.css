@@ -43,6 +43,14 @@ body {
     color: black;
   }
 
+  .btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+  }
+  .btn:disabled {
+    cursor: no-drop;
+  }
+  
   #next-btn {
     background: black;
     color: white;

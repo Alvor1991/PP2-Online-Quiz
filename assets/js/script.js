@@ -37,7 +37,8 @@ const quiz = [
             { text: "Answer3", correct: false},
             { text: "Answer4", correct: false},
         ]
-    },
+    }
+];
 
 
 const questionElement = document.getElementById("question");
@@ -74,8 +75,5 @@ function clearAnswer(){
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
-
-
 
 beginQuiz();
