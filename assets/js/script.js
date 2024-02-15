@@ -55,6 +55,7 @@ function beginQuiz(){
 }
 
 function displayQuestion(){
+    clearAnswer();
     let currentQuestion = quiz[questionIndex];
     let questionNo = questionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
@@ -66,6 +67,11 @@ function displayQuestion(){
         answerButtons.appendChild(button);
     });
 }
+
+function clearAnswer(){
+   
+}
+
 
 
 beginQuiz();
