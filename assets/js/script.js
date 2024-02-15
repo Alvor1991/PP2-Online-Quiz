@@ -99,6 +99,17 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+
+function handleNextButton(){
+    questionIndex++;
+    if(questionIndex < quiz.length){
+        displayQuestion();
+    }else{
+        showScore();
+    }
+}
+
+
 nextButton.addEventListener("click", ()=>{
     if(questionIndex < quiz.length){
         handleNextButton();
