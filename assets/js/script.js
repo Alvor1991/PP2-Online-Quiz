@@ -83,7 +83,13 @@ function clearAnswer(){
 
 function selectAnswer(e){
     const clickedButton = e.target;
-    const isCorrect = clickedButton.dataset.correct === "true";
+    const correctAnswer = clickedButton.dataset.correct === "true";
+    if(correctAnswer){
+        clickedButton.classList.add("correct");
+        playerScore++;
+    }else{
+        clickedButton.classList.add("incorrect");
+    }
 }
 
 

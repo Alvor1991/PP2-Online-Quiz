@@ -63,3 +63,11 @@ body {
     cursor: pointer;
     display: none;
   }
+
+  .correct {
+    background: green;
+  }
+  .incorrect {
+    background: red;
+  }
+  
