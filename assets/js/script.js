@@ -66,6 +66,7 @@ function displayQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        button.addEventListener("click", selectAnswer);
     });
 }
 
