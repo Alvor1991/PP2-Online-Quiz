@@ -116,6 +116,7 @@ function updateProgressBar() {
 
 function handleNextButton(){
     questionIndex++;
+    updateProgressBar();
     if(questionIndex < quiz.length){
         displayQuestion();
     }else{
