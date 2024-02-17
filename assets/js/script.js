@@ -54,6 +54,7 @@ function beginQuiz(){
     playerScore = 0;
     nextButton.innerHTML = "Next";
     displayQuestion();
+    updateProgressBar();
 }
 
 function displayQuestion(){
@@ -107,7 +108,6 @@ function displayScore(){
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
-
 
 function updateProgressBar() {
     const progress = ((questionIndex + 1) / quiz.length) * 100;
