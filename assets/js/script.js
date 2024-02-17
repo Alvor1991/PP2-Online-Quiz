@@ -52,6 +52,8 @@ let playerScore = 0;
 function startTimer() {
     const timer = setInterval(() => {
         timeLeft--;
+        if (timeLeft <= 0) { // If time is up
+            clearInterval(timer);
     }
 
 }
