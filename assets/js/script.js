@@ -111,6 +111,7 @@ function displayScore(){
 
 function updateProgressBar() {
     const progress = ((questionIndex + 1) / quiz.length) * 100;
+    progressBar.style.width = `${progress}%`;
 }
 
 function handleNextButton(){
