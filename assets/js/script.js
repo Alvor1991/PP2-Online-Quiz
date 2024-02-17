@@ -49,14 +49,17 @@ const progressBar = document.getElementById("progress-bar");
 let questionIndex = 0;
 let playerScore = 0;
 
+function startTimer() {
+    
+}
 
 // Function to start the quiz
 function beginQuiz(){
     questionIndex = 0;
     playerScore = 0;
     nextButton.innerHTML = "Next";
-    updateProgressBar();
-    displayQuestion();
+    displayQuestion();  
+    updateProgressBar(); 
 }
 
 // Function to display question
