@@ -53,8 +53,8 @@ function beginQuiz(){
     questionIndex = 0;
     playerScore = 0;
     nextButton.innerHTML = "Next";
-    displayQuestion();
     updateProgressBar();
+    displayQuestion();
 }
 
 function displayQuestion(){
