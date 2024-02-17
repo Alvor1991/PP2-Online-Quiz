@@ -100,11 +100,17 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+
 function displayScore(){
     clearAnswer();
     questionElement.innerHTML = `You scored ${playerScore} out of ${quiz.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+}
+
+
+function updateProgressBar() {
+   
 }
 
 function handleNextButton(){
