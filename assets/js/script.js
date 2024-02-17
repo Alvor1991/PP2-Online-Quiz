@@ -50,7 +50,10 @@ let questionIndex = 0;
 let playerScore = 0;
 
 function startTimer() {
-    
+    const timer = setInterval(() => {
+        timeLeft--;
+    }
+
 }
 
 // Function to start the quiz
