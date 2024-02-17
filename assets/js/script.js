@@ -49,6 +49,8 @@ const progressBar = document.getElementById("progress-bar");
 let questionIndex = 0;
 let playerScore = 0;
 
+
+// Function to start the quiz
 function beginQuiz(){
     questionIndex = 0;
     playerScore = 0;
@@ -57,6 +59,7 @@ function beginQuiz(){
     displayQuestion();
 }
 
+// Function to display question
 function displayQuestion(){
     clearAnswer();
     let currentQuestion = quiz[questionIndex];
@@ -73,9 +76,10 @@ function displayQuestion(){
         }
         button.addEventListener("click", selectAnswer);
     });
+    updateProgressBar(); 
 }
 
-
+// Function to clear answer and reset
 function clearAnswer(){
     nextButton.style.display = "none";
     while(answerButtons.firstChild){
@@ -101,7 +105,7 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
-
+// Function to display score
 function displayScore(){
     clearAnswer();
     questionElement.innerHTML = `You scored ${playerScore} out of ${quiz.length}!`;
@@ -109,11 +113,13 @@ function displayScore(){
     nextButton.style.display = "block";
 }
 
+// Function to update progress bar
 function updateProgressBar() {
     const progress = ((questionIndex + 1) / quiz.length) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
+// Function to handle next button click
 function handleNextButton(){
     questionIndex++;
     updateProgressBar();
@@ -124,6 +130,7 @@ function handleNextButton(){
     }
 }
 
+// Event listener for next button click
 nextButton.addEventListener("click", ()=>{
     if(questionIndex < quiz.length){
         handleNextButton();
