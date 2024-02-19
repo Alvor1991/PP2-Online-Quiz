@@ -72,7 +72,7 @@ function beginQuiz(){
 }
 
 function startTimer() {
-    
+    timerElement.textContent = timeLeft; 
 }
 
 // Function to display question
