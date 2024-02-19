@@ -55,11 +55,10 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const progressBar = document.getElementById("progress-bar"); 
-const timerElement = document.getElementById("timer");
+
 
 let questionIndex = 0;
 let playerScore = 0;
-let timeLeft = 20; 
 
 // Function to start the quiz
 function beginQuiz(){
