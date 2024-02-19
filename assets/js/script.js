@@ -73,17 +73,21 @@ function beginQuiz(){
 }
 
 // Function to start the  timer 
+// Function to start the timer
 function startTimer() {
-    timerElement.textContent = timeLeft; 
-    const timer = setInterval(() => { 
-        timeLeft--; 
-        timerElement.textContent = timeLeft; 
-        if (timeLeft <= 0) { 
-            clearInterval(timer); 
-            handleTimeUp(); 
+    timeLeft = 20; // Reset the time to 20 seconds
+    timerElement.textContent = timeLeft;
+    const timer = setInterval(() => {
+        timerElement.textContent = timeLeft;
+        if (timeLeft <= 0) { // Check if time left is less than or equal to 0
+            clearInterval(timer); // Stop the timer
+            handleTimeUp();
+        } else {
+            timeLeft--; // Decrement time left if it's greater than 0
         }
-    }, 1000); 
+    }, 1000);
 }
+
 
 // Function to handle time up 
 function handleTimeUp() {
