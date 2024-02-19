@@ -68,39 +68,7 @@ function beginQuiz(){
     nextButton.innerHTML = "Next";
     updateProgressBar(); 
     progressBar.style.width = "0%"; 
-    startTimer();
     displayQuestion();  
-}
-
-// Function to start the  timer 
-// Function to start the timer
-function startTimer() {
-    timeLeft = 20; // Reset the time to 20 seconds
-    timerElement.textContent = timeLeft;
-    const timer = setInterval(() => {
-        timerElement.textContent = timeLeft;
-        if (timeLeft <= 0) { // Check if time left is less than or equal to 0
-            clearInterval(timer); // Stop the timer
-            handleTimeUp();
-        } else {
-            timeLeft--; // Decrement time left if it's greater than 0
-        }
-    }, 1000);
-}
-
-
-// Function to handle time up 
-function handleTimeUp() {
-    const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
-    const buttons = answerButtons.querySelectorAll('.btn');
-    buttons[correctAnswerIndex].classList.add('correct');
-    buttons.forEach((button, index) => {
-        if (index !== correctAnswerIndex) {
-            button.classList.add('incorrect');
-        }
-            button.disabled = true;
-    });
-        nextButton.style.display = 'block';
 }
 
 // Function to display question
@@ -121,7 +89,6 @@ function displayQuestion(){
         button.addEventListener("click", selectAnswer);
     });
     updateProgressBar(); 
-    timeLeft = 20;
 }
 
 // Function to clear answer and reset
