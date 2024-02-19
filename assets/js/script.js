@@ -72,6 +72,12 @@ function beginQuiz(){
     startTimer(); //
 }
 
+function handleTimeUp() {
+
+}
+
+
+
 // Function to start the quiz timer 
 function startTimer() {
     timerElement.textContent = timeLeft; 
