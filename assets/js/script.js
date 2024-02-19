@@ -74,6 +74,8 @@ function beginQuiz(){
 
 function handleTimeUp() {
     const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
+    const buttons = answerButtons.querySelectorAll('.btn');
+
 
 }
 
