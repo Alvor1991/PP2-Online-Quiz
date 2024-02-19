@@ -66,6 +66,7 @@ function beginQuiz(){
     nextButton.innerHTML = "Next";
     displayQuestion();  
     updateProgressBar(); 
+    progressBar.style.width = "0%"; // Reset progress bar to 0%
 }
 
 // Function to display question
@@ -124,7 +125,7 @@ function displayScore(){
 
 // Function to update progress bar
 function updateProgressBar() {
-    const progress = ((questionIndex + 1) / quiz.length) * 100;
+    const progress = ((questionIndex) / quiz.length) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
