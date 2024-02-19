@@ -73,9 +73,9 @@ function beginQuiz(){
 }
 
 function handleTimeUp() {
+    const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
 
 }
-
 
 
 // Function to start the quiz timer 
