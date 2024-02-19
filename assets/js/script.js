@@ -77,7 +77,9 @@ function handleTimeUp() {
     const buttons = answerButtons.querySelectorAll('.btn');
     buttons[correctAnswerIndex].classList.add('correct');
     buttons.forEach((button, index) => {
-        
+        if (index !== correctAnswerIndex) {
+
+
 
     }
 
