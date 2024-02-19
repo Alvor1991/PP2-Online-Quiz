@@ -73,6 +73,10 @@ function beginQuiz(){
 
 function startTimer() {
     timerElement.textContent = timeLeft; 
+    const timer = setInterval(() => { 
+        timeLeft--; 
+        timerElement.textContent = timeLeft;
+    }
 }
 
 // Function to display question
