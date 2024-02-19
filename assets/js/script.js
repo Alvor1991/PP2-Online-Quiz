@@ -76,7 +76,10 @@ function startTimer() {
     const timer = setInterval(() => { 
         timeLeft--; 
         timerElement.textContent = timeLeft;
+        if (timeLeft <= 0) { 
+            
     }
+
 }
 
 // Function to display question
