@@ -59,16 +59,6 @@ const progressBar = document.getElementById("progress-bar");
 let questionIndex = 0;
 let playerScore = 0;
 
-function startTimer() {
-    const timer = setInterval(() => { 
-        timeLeft--; 
-        if (timeLeft <= 0) { 
-            clearInterval(timer); 
-            handleTimeUp(); 
-        }
-    }, 1000); 
-}
-
 // Function to start the quiz
 function beginQuiz(){
     questionIndex = 0;
