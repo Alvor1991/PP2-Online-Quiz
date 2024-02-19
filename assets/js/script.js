@@ -51,7 +51,6 @@ const quiz = [
 
 ];
 
-
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -77,7 +76,7 @@ function beginQuiz(){
     nextButton.innerHTML = "Next";
     displayQuestion();  
     updateProgressBar(); 
-    progressBar.style.width = "0%"; // Reset progress bar to 0%
+    progressBar.style.width = "0%"; 
 }
 
 // Function to display question
@@ -108,6 +107,7 @@ function clearAnswer(){
     }
 }
 
+// Function when user clicks on answer 
 function selectAnswer(e){
     const clickedButton = e.target;
     const correctAnswer = clickedButton.dataset.correct === "true";
