@@ -71,6 +71,10 @@ function beginQuiz(){
     progressBar.style.width = "0%"; 
 }
 
+function startTimer() {
+    
+}
+
 // Function to display question
 function displayQuestion(){
     clearAnswer();
