@@ -74,7 +74,6 @@ function beginQuiz(){
 
 // Function to start the  timer 
 function startTimer() {
-    let timeLeft = 20; 
     timerElement.textContent = timeLeft; 
     const timer = setInterval(() => { 
         timeLeft--; 
@@ -118,7 +117,7 @@ function displayQuestion(){
         button.addEventListener("click", selectAnswer);
     });
     updateProgressBar(); 
-    startTimer();
+    timeLeft = 20;
 }
 
 // Function to clear answer and reset
