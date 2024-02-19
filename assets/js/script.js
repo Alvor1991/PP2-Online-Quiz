@@ -78,12 +78,13 @@ function handleTimeUp() {
     buttons[correctAnswerIndex].classList.add('correct');
     buttons.forEach((button, index) => {
         if (index !== correctAnswerIndex) {
-
-
-
+            button.classList.add('incorrect');
+        }
+            button.disabled = true;
+        });
+        nextButton.style.display = 'block';
     }
 
-}
 
 
 // Function to start the quiz timer 
