@@ -76,8 +76,10 @@ function handleTimeUp() {
     const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
     const buttons = answerButtons.querySelectorAll('.btn');
     buttons[correctAnswerIndex].classList.add('correct');
+    buttons.forEach((button, index) => {
+        
 
-
+    }
 
 }
 
