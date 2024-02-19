@@ -75,11 +75,12 @@ function startTimer() {
     timerElement.textContent = timeLeft; 
     const timer = setInterval(() => { 
         timeLeft--; 
-        timerElement.textContent = timeLeft;
+        timerElement.textContent = timeLeft; 
         if (timeLeft <= 0) { 
-            
-    }
-
+            clearInterval(timer); 
+            handleTimeUp(); 
+        }
+    }, 1000); 
 }
 
 // Function to display question
