@@ -72,21 +72,6 @@ function beginQuiz(){
     startTimer(); //
 }
 
-function handleTimeUp() {
-    const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
-    const buttons = answerButtons.querySelectorAll('.btn');
-    buttons[correctAnswerIndex].classList.add('correct');
-    buttons.forEach((button, index) => {
-        if (index !== correctAnswerIndex) {
-            button.classList.add('incorrect');
-        }
-            button.disabled = true;
-        });
-        nextButton.style.display = 'block';
-    }
-
-
-
 // Function to start the quiz timer 
 function startTimer() {
     timerElement.textContent = timeLeft; 
@@ -98,6 +83,20 @@ function startTimer() {
             handleTimeUp(); 
         }
     }, 1000); 
+}
+
+
+function handleTimeUp() {
+    const correctAnswerIndex = quiz[questionIndex].answers.findIndex(answer => answer.correct);
+    const buttons = answerButtons.querySelectorAll('.btn');
+    buttons[correctAnswerIndex].classList.add('correct');
+    buttons.forEach((button, index) => {
+        if (index !== correctAnswerIndex) {
+            button.classList.add('incorrect');
+        }
+            button.disabled = true;
+    });
+        nextButton.style.display = 'block';
 }
 
 // Function to display question
