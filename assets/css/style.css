@@ -12,10 +12,11 @@ body {
   }
 
   .progress-container {
-    width: 100%;
+    width: calc(100% - 20px);
     background-color: #ddd;
     border-radius: 5px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
  .progress-bar {
@@ -23,6 +24,7 @@ body {
   background-color: green;
   border-radius: 5px;
   transition: width 0.3s ease-in-out;
+  max-width: 100%;
  }
 
  .quiz-container h1 {
