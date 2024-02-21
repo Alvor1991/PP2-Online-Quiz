@@ -181,6 +181,11 @@ var closeButton = document.getElementsByClassName("close")[0];
 var startFromRules = document.getElementById("rules-btn");
 
 closeButton.onclick = function() {
-    quizRulesModal.style.display = "none";
+    rulesModal.style.display = "none";
+}
+
+startFromRules.onclick = function() {
+    rulesModal.style.display = "none";
+    beginQuiz();
 }
 
