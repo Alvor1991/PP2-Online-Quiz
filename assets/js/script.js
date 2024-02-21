@@ -166,6 +166,13 @@ function showWelcomeModal() {
         beginQuiz();
     }
 
+    rulesButton.onclick = function() {
+        welcomeModal.style.display = "none";
+        rulesModal.style.display = "block";
+    }
+
+
+
 }
 
 var rulesModal = document.getElementById("rules-modal");
