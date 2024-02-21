@@ -152,3 +152,10 @@ nextButton.addEventListener("click", ()=>{
 });
 
 beginQuiz();
+
+
+
+
+function showWelcomeModal() {
+
+}
