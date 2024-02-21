@@ -167,3 +167,5 @@ function showWelcomeModal() {
     }
 
 }
+
+var rulesModal = document.getElementById("rules-modal");
