@@ -171,8 +171,9 @@ function showWelcomeModal() {
         rulesModal.style.display = "block";
     }
 
-
-
+    welcomeModal.style.display = "block";
 }
+
+window.onload = showWelcomeModal;
 
 var rulesModal = document.getElementById("rules-modal");
