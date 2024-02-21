@@ -157,5 +157,7 @@ beginQuiz();
 
 
 function showWelcomeModal() {
+    var startButton = document.getElementById("start-btn");
+    var rulesButton = document.getElementById("rules-btn");
 
 }
