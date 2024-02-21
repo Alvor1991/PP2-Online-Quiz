@@ -159,7 +159,7 @@ beginQuiz();
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
     var startButton = document.getElementById("start-btn");
-    var rulesButton = document.getElementById("rules-btn");
+    var rulesButton = document.getElementById("quiz-rules");
 
     startButton.onclick = function() {
         welcomeModal.style.display = "none";
@@ -177,3 +177,8 @@ function showWelcomeModal() {
 window.onload = showWelcomeModal;
 
 var rulesModal = document.getElementById("rules-modal");
+var closeBtn = document.getElementsByClassName("close")[0];
+var startFromRules = document.getElementById("rules-btn");
+
+
+
