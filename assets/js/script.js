@@ -157,7 +157,13 @@ beginQuiz();
 
 
 function showWelcomeModal() {
+    var welcomeModal = document.getElementById("welcome-modal");
     var startButton = document.getElementById("start-btn");
     var rulesButton = document.getElementById("rules-btn");
+
+    startButton.onclick = function() {
+        welcomeModal.style.display = "none";
+        beginQuiz();
+    }
 
 }
