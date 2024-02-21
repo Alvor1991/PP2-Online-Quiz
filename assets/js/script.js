@@ -177,8 +177,10 @@ function showWelcomeModal() {
 window.onload = showWelcomeModal;
 
 var rulesModal = document.getElementById("rules-modal");
-var closeBtn = document.getElementsByClassName("close")[0];
+var closeButton = document.getElementsByClassName("close")[0];
 var startFromRules = document.getElementById("rules-btn");
 
-
+closeButton.onclick = function() {
+    quizRulesModal.style.display = "none";
+}
 
