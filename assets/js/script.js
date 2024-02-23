@@ -168,6 +168,13 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+// Function for score counter feature 
+
+function scoreCounter() {
+    correctAnswersElement.textContent = playerScore;
+    incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
+}
+
 // Function to display score
 function displayScore(){
     clearAnswer();
@@ -205,7 +212,7 @@ nextButton.addEventListener("click", ()=>{
 beginQuiz();
 
 
-
+// Modal
 
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
