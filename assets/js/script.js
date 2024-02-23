@@ -104,6 +104,8 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const progressBar = document.getElementById("progress-bar"); 
+const correctAnswersElement = document.getElementById("correct-answers");
+const incorrectAnswersElement = document.getElementById("incorrect-answers");
 
 
 let questionIndex = 0;
