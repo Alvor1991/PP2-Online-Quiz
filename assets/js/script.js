@@ -119,6 +119,7 @@ function beginQuiz(){
     updateProgressBar(); 
     progressBar.style.width = "0%"; 
     displayQuestion();  
+    document.getElementById("score").style.display = "block";
 }
 
 // Function to display question
