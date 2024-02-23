@@ -47,8 +47,57 @@ const quiz = [
             { text: "Answer3", correct: false},
             { text: "Answer4", correct: false},
         ]
-    }
+    },
 
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    },
+
+    {
+        question: "Practice Question?",
+        answers: [
+            { text: "Answer1", correct: true},
+            { text: "Answer2", correct: false},
+            { text: "Answer3", correct: false},
+            { text: "Answer4", correct: false},
+        ]
+    }
 ];
 
 const questionElement = document.getElementById("question");
