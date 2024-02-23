@@ -140,3 +140,17 @@ body {
   align-items: center; 
   height: 100%; 
 }
+
+
+@media screen and (max-width: 768px) {
+  .quiz-container {
+    position: static; 
+    bottom: auto; 
+    left: auto; 
+    transform: none; 
+    width: 80%; 
+    max-width: 700px; 
+    margin: 100px auto 0; 
+    border-radius: 15px;
+  }
+}
