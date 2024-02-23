@@ -166,6 +166,7 @@ function selectAnswer(e){
         button.disabled = true;
     });
     nextButton.style.display = "block";
+    scoreCounter();
 }
 
 // Function for score counter feature 
