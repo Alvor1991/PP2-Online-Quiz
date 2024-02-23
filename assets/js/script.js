@@ -181,7 +181,7 @@ function scoreCounter() {
 // Function to display score
 function displayScore(){
     clearAnswer();
-    questionElement.innerHTML = `You scored ${playerScore} out of ${quiz.length}!`;
+    questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} out of ${quiz.length}!</span>`;
     document.getElementById("score").style.display = "none";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";

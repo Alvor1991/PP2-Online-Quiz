@@ -93,7 +93,12 @@ body {
   position: fixed;
   z-index: 1;
   left: 0;
-  top: 0;
+  top: 0;.score-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3366ff; /* Example color */
+}
+
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -121,4 +126,10 @@ body {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.score-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3366ff; /* Example color */
 }
