@@ -87,42 +87,6 @@ body {
     background: red;
   }
 
-/* HOME PAGE STYLES */
-
-.home-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-}
-
-/* Style for the content */
-#home {
-  text-align: center;
-}
-
-/* Style for the heading */
-#home h1 {
-  font-size: 3rem; 
-}
-
-#home-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-/* Media query for mobile screens */
-@media (max-width: 768px) {
-  #home h1 {
-    font-size: 2rem; 
-  }
-}
-
 /* Modal styles */
 .modal {
   display: none;
