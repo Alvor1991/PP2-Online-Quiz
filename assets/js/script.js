@@ -170,7 +170,6 @@ function selectAnswer(e){
 }
 
 // Function for score counter feature 
-
 function scoreCounter() {
     correctAnswersElement.textContent = playerScore;
     incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
@@ -180,6 +179,7 @@ function scoreCounter() {
 function displayScore(){
     clearAnswer();
     questionElement.innerHTML = `You scored ${playerScore} out of ${quiz.length}!`;
+    document.getElementById("score").style.display = "none";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
