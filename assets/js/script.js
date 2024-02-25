@@ -1,101 +1,101 @@
 const quiz = [
     {
-        question: "Practice Question?",
+        question: "What was the name of the legendary music festival held in upstate New York in 1969?",
         answers: [
-            { text: "Answer1", correct: false},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: true},
-            { text: "Answer4", correct: false},
+            { text: "Isle of Wight Festival", correct: false},
+            { text: "Live Aid", correct: false},
+            { text: "Woodstock", correct: true},
+            { text: "Monterey Pop Festival", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "What was the title of Michael Jackson's first solo album, released in 1979?",
         answers: [
-            { text: "Answer1", correct: false},
-            { text: "Answer2", correct: true},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Thriller", correct: false},
+            { text: "Off the Wall", correct: true},
+            { text: "Bad", correct: false},
+            { text: "Dangerous", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Which band released the album 'Dark Side of the Moon' in 1973, one of the best-selling albums of all time?",
         answers: [
-            { text: "Answer1", correct: false},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: true},
+            { text: "The Rolling Stones", correct: false},
+            { text: "Led Zeppelin", correct: false},
+            { text: "The Who", correct: false},
+            { text: "Pink Floyd", correct: true},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Who released the hit song 'American Pie' in 1971, a tribute to the late Buddy Holly?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Don McLean", correct: true},
+            { text: "Bob Dylan", correct: false},
+            { text: "Simon & Garfunkel", correct: false},
+            { text: "James Taylor", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Which American rock band released the album 'Hotel California' in 1976?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Aerosmith", correct: false},
+            { text: "The Eagles", correct: true},
+            { text: "Lynyrd Skynyrd", correct: false},
+            { text: "Boston", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Who released the hit song 'I Will Survive' in 1978, which became an anthem of female empowerment?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Diana Ross", correct: false},
+            { text: "Donna Summer", correct: false},
+            { text: "Gloria Gaynor", correct: true},
+            { text: "Cher", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Who was the lead guitarist of the band Led Zeppelin, known for his innovative guitar solos?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Jimmy", correct: true},
+            { text: "Robert Plant", correct: false},
+            { text: "Keith Richards", correct: false},
+            { text: "Joe Perry", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Who sang the hit song 'Let It Be', which became one of The Beatles' most beloved tracks?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "John Lennon", correct: false},
+            { text: "Paul McCartney", correct: true},
+            { text: "George Harrison", correct: false},
+            { text: "Ringo Starr", correct: false},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Who sang the hit song 'Superstition', released in 1972?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "Marvin Gaye", correct: false},
+            { text: "Al Green", correct: false},
+            { text: "Curtis Mayfield", correct: false},
+            { text: "Stevie Wonder", correct: true},
         ]
     },
 
     {
-        question: "Practice Question?",
+        question: "Which Bee Gees song was their first number-one hit single in 1971?",
         answers: [
-            { text: "Answer1", correct: true},
-            { text: "Answer2", correct: false},
-            { text: "Answer3", correct: false},
-            { text: "Answer4", correct: false},
+            { text: "How Can You Mend a Broken Heart", correct: true},
+            { text: "How Deep Is Your Love", correct: false},
+            { text: "Tragedy", correct: false},
+            { text: "Stayin' Alive", correct: false},
         ]
     }
 ];
