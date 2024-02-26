@@ -1,15 +1,5 @@
 const quiz = [
     {
-        question: "What was the name of the legendary music festival held in upstate New York in 1969?",
-        answers: [
-            { text: "Isle of Wight Festival", correct: false},
-            { text: "Live Aid", correct: false},
-            { text: "Woodstock", correct: true},
-            { text: "Monterey Pop Festival", correct: false},
-        ]
-    },
-
-    {
         question: "What was the title of Michael Jackson's first solo album, released in 1979?",
         answers: [
             { text: "Thriller", correct: false},
@@ -96,6 +86,16 @@ const quiz = [
             { text: "How Deep Is Your Love", correct: false},
             { text: "Tragedy", correct: false},
             { text: "Stayin' Alive", correct: false},
+        ]
+    },
+
+    {
+        question: "What was the name of the legendary music festival held in upstate New York in 1969?",
+        answers: [
+            { text: "Isle of Wight Festival", correct: false},
+            { text: "Live Aid", correct: false},
+            { text: "Woodstock", correct: true},
+            { text: "Monterey Pop Festival", correct: false},
         ]
     }
 ];
