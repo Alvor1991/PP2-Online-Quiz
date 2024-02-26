@@ -116,6 +116,13 @@ body {
   border-radius: 15px; 
 }
 
+.modal-content button.btn {
+  width: auto; /* Adjusted to fit content */
+  padding: 10px 20px; /* Reduced padding for smaller size */
+  font-size: 14px; /* Reduced font size for smaller size */
+  margin: 10px 0; /* Adjusted margin for spacing */
+}
+
 .close {
   color: #aaa;
   float: right;
