@@ -1,6 +1,6 @@
 const quiz = [
     {
-        question: "What was the title of Michael Jackson's first solo album, released in 1979?",
+        question: "What was the title of Michael Jackson's first solo album, in 1979?",
         answers: [
             { text: "Thriller", correct: false},
             { text: "Off the Wall", correct: true},
