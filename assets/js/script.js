@@ -60,7 +60,7 @@ const quiz = [
     },
 
     {
-        question: "Which Beatle sang the hit song 'Let It Be' in 1970?",
+        question: "Who was the lead guitarist of the band Led Zeppelin?",
         answers: [
             { text: "John Lennon", correct: false},
             { text: "Paul McCartney", correct: true},
@@ -70,7 +70,7 @@ const quiz = [
     },
 
     {
-        question: "Who sang the hit song 'Superstition', released in 1972?",
+        question: "Who was the lead guitarist of the band Led Zeppelin?",
         answers: [
             { text: "Marvin Gaye", correct: false},
             { text: "Al Green", correct: false},
@@ -80,22 +80,12 @@ const quiz = [
     },
 
     {
-        question: "Which Bee Gees song was their first number-one hit single in 1971?",
+        question: "Who was the lead guitarist of the band Led Zeppelin?",
         answers: [
             { text: "How Can You Mend a Broken Heart", correct: true},
             { text: "How Deep Is Your Love", correct: false},
             { text: "Tragedy", correct: false},
             { text: "Stayin' Alive", correct: false},
-        ]
-    },
-
-    {
-        question: "What was the name of the legendary music festival held in upstate New York in 1969?",
-        answers: [
-            { text: "Isle of Wight Festival", correct: false},
-            { text: "Live Aid", correct: false},
-            { text: "Woodstock", correct: true},
-            { text: "Monterey Pop Festival", correct: false},
         ]
     }
 ];
@@ -124,7 +114,7 @@ function beginQuiz(){
     document.getElementById("score").style.display = "block";
 }
 
-// Function to display question
+/** Function to display question */ 
 function displayQuestion(){
     clearAnswer();
     let currentQuestion = quiz[questionIndex];
