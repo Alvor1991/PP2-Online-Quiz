@@ -20,7 +20,7 @@ const quiz = [
     },
 
     {
-        question: "Which band released the album 'Dark Side of the Moon' in 1973, one of the best-selling albums of all time?",
+        question: "Which band released the album 'Dark Side of the Moon' in 1973?",
         answers: [
             { text: "The Rolling Stones", correct: false},
             { text: "Led Zeppelin", correct: false},
@@ -30,7 +30,7 @@ const quiz = [
     },
 
     {
-        question: "Who released the hit song 'American Pie' in 1971, a tribute to the late Buddy Holly?",
+        question: "Who released the hit song 'American Pie' in 1971?",
         answers: [
             { text: "Don McLean", correct: true},
             { text: "Bob Dylan", correct: false},
@@ -50,7 +50,7 @@ const quiz = [
     },
 
     {
-        question: "Who released the hit song 'I Will Survive' in 1978, which became an anthem of female empowerment?",
+        question: "Who released the hit song 'I Will Survive' in 1978?",
         answers: [
             { text: "Diana Ross", correct: false},
             { text: "Donna Summer", correct: false},
@@ -60,7 +60,7 @@ const quiz = [
     },
 
     {
-        question: "Who was the lead guitarist of the band Led Zeppelin, known for his innovative guitar solos?",
+        question: "Who was the lead guitarist of the band Led Zeppelin?",
         answers: [
             { text: "Jimmy", correct: true},
             { text: "Robert Plant", correct: false},
@@ -70,7 +70,7 @@ const quiz = [
     },
 
     {
-        question: "Who sang the hit song 'Let It Be', which became one of The Beatles' most beloved tracks?",
+        question: "Which Beatle sang the hit song 'Let It Be' in 1970?",
         answers: [
             { text: "John Lennon", correct: false},
             { text: "Paul McCartney", correct: true},
