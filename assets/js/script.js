@@ -101,7 +101,7 @@ const incorrectAnswersElement = document.getElementById("incorrect-answers");
 let questionIndex = 0;
 let playerScore = 0;
 
-// Function to start the quiz
+/** Function to begin the quiz */ 
 function beginQuiz(){
     questionIndex = 0;
     playerScore = 0;
@@ -134,7 +134,7 @@ function displayQuestion(){
     updateProgressBar(); 
 }
 
-// Function to clear answer and reset
+/** Function to clear answer and reset */ 
 function clearAnswer(){
     nextButton.style.display = "none";
     while(answerButtons.firstChild){
@@ -142,7 +142,7 @@ function clearAnswer(){
     }
 }
 
-// Function when user clicks on answer 
+/** Function when user clicks on answer */ 
 function selectAnswer(e){
     const clickedButton = e.target;
     const correctAnswer = clickedButton.dataset.correct === "true";
@@ -162,13 +162,13 @@ function selectAnswer(e){
     scoreCounter();
 }
 
-// Function for score counter feature 
+/** Function for score counter feature */ 
 function scoreCounter() {
     correctAnswersElement.textContent = playerScore;
     incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
 }
 
-// Function to display score
+/** Function to display score */ 
 function displayScore(){
     clearAnswer();
     questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} out of ${quiz.length}!</span>`;
@@ -177,13 +177,13 @@ function displayScore(){
     nextButton.style.display = "block";
 }
 
-// Function to update progress bar
+/** Function to update progress bar */ 
 function updateProgressBar() {
     const progress = ((questionIndex) / quiz.length) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
-// Function to handle next button click
+/** Function to handle next button click */
 function handleNextButton(){
     questionIndex++;
     updateProgressBar();
@@ -194,7 +194,7 @@ function handleNextButton(){
     }
 }
 
-// Event listener for next button click
+/** Event listener for next button click */ 
 nextButton.addEventListener("click", ()=>{
     if(questionIndex < quiz.length){
         handleNextButton();
@@ -208,6 +208,7 @@ beginQuiz();
 
 // Modal
 
+/** Function to show welcome modal */ 
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
     var startButton = document.getElementById("start-btn");
@@ -240,4 +241,3 @@ startFromRules.onclick = function() {
     rulesModal.style.display = "none";
     beginQuiz();
 }
-
