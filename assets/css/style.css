@@ -130,6 +130,12 @@ body {
   cursor: pointer;
 }
 
+#rule-modal {
+  padding-bottom: 10px
+}
+
+
+
 .score-message {
   font-size: 18px;
   font-weight: bold;
