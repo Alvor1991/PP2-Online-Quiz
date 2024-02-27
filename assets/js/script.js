@@ -181,7 +181,7 @@ function displayScore(){
     } else {
         scoreMessage = "Keep exploring! You'll improve with practice!";
     }
-    questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} out of ${quiz.length}!<br>${scoreMessage}</span>`;
+    questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} / ${quiz.length}!<br>${scoreMessage}</span>`;
     document.getElementById("score").style.display = "none";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";

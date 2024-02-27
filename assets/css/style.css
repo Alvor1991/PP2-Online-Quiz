@@ -204,3 +204,18 @@ body {
     border-radius: 15px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .score-message {
+      font-size: 25px;
+      font-weight: bold;
+      color: #3366ff; 
+      text-align: center; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      height: 100%; 
+      margin-top: 20px;
+      line-height: 4.5;
+  }
+}
