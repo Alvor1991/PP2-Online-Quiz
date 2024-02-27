@@ -216,15 +216,14 @@ nextButton.addEventListener("click", ()=>{
 beginQuiz();
 
 
-
 function hideQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
-    quizContainer.style.display = "none"; // Hide the quiz container
+    quizContainer.style.display = "none"; 
 }
 
 function showQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
-    quizContainer.style.display = "block"; // Show the quiz container
+    quizContainer.style.display = "block"; 
 }
 
 /** Function to show welcome modal */ 
@@ -252,13 +251,28 @@ function showWelcomeModal() {
 window.onload = showWelcomeModal;
 
 var rulesModal = document.getElementById("rules-modal");
-var homeButton = document.getElementsByClassName("home")[0];
-var startFromRules = document.getElementById("rules-btn");
+var homeButtons = document.getElementsByClassName("home");
 
-homeButton.onclick = function() {
-    rulesModal.style.display = "none";
-    showQuizContainer();
+
+/** Function to go welcome modal from the home icon */ 
+function goToWelcomeModal() {
+    var welcomeModal = document.getElementById("welcome-modal");
+    var modals = document.getElementsByClassName("modal");
+    
+    for (var i = 0; i < modals.length; i++) {
+        modals[i].style.display = "none"; 
+    }
+    
+    welcomeModal.style.display = "block"; 
+    showQuizContainer(); // 
 }
+
+// Attach click event listener to each home button/icon
+for (var i = 0; i < homeButtons.length; i++) {
+    homeButtons[i].addEventListener("click", goToWelcomeModal);
+}
+
+var startFromRules = document.getElementById("rules-btn");
 
 startFromRules.onclick = function() {
     rulesModal.style.display = "none";
