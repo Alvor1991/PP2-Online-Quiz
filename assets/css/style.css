@@ -9,6 +9,10 @@ body {
     background: #3498db;
 }
 
+/****************  
+* MUSIC QUIZ STYLES *
+****************/
+
 .quiz-container {
     background: #fff;
     width: 80%;
@@ -94,7 +98,37 @@ body {
     background: red;
   }
 
-/* Modal styles */
+/* Add these styles to your CSS */
+#score {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+#score span {
+  margin: 0 5px; /* Add spacing between the text and the numbers */
+}
+
+#correct-answers {
+  color: green; /* Make correct answers green */
+}
+
+#incorrect-answers {
+  color: red; /* Make incorrect answers red */
+}
+
+
+
+
+
+
+
+/****************  
+* MODAL STYLES *
+****************/
+
 .modal {
   display: none;
   position: fixed;
@@ -129,15 +163,15 @@ body {
   margin: 10px 0; 
 }
 
-.close {
+.home {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.home:hover,
+.home:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
