@@ -55,9 +55,9 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
 ### User Stories
 
-* As a music lover, I want to seamlessly navigate the website to access the music quiz and test my knowledge of 1970s music.
+* As a user, I want to seamlessly navigate the website to access the music quiz and test my knowledge of 1970s music.
 
-* As a quiz enthusiast, I want engaging and challenging quiz questions that provide an enjoyable experience and stimulate my curiosity about 1970s music.
+* As a user, I want engaging and challenging quiz questions that provide an enjoyable experience and stimulate my curiosity about 1970s music.
 
 * As a user, I want clear instructions on how to play the quiz and understand the rules, ensuring a smooth and frustration-free experience.
 
@@ -80,7 +80,7 @@ Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | 
 Menu | ![Desktop menu wireframe image](assets/wireframes/desktop-menu.png) | ![Mobile menu wireframe image](assets/wireframes/mobile-menu.png)
 Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.png) | ![Mobile contact wireframe image](assets/wireframes/mobile-contact.png)
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 
 ## Features
@@ -158,7 +158,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
     
     - The map displays a Google map of the business' geographical location. This allows customers to easily find the location from their devices.
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 ## Technologies Used
 
@@ -202,31 +202,31 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 * [JSHint](https://jshint.com)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 ## Testing
 
 ### Testing User Stories
 
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business.
+* As a user, I want to seamlessly navigate the music quiz and test my knowledge of 1970s music.
 
-     - The website offers an intuitive structure for customers to navigate and find the information they are looking for.
+    - The quiz offers a clear and simple layout for users to navigate through each question.
+
+    - The quiz offers a clear and simple layout for users to navigate through each question.
 
     - The navigation bar is clearly presented in all pages for customers to find with ease and it is easily navigable.
 
-* As a customer, I want to be able to read more about the food and cocktail options available.
+* As a user, I want engaging and challenging quiz questions that provide an enjoyable experience.
 
-    - The menu page presents all food and cocktail options available.
+    - The quiz contains 4 possible answers, which makes the questions challenging.
 
-    - Each food and cocktail item have a description and price.
+* As a user, I want clear instructions on how to play the quiz and understand the rules.
 
-* As a customer, I want to easily find the contact information for the business.
+    - The quiz rules are very simple and listed in clear bullet points. 
 
-    - The footer contains a clear contact section with all necessary business' contacts.
+* As a user, I want to easily find my final quiz score.
 
-* As a customer, I want to find social media links to the business.
-
-    - The footer provides links to the business' social media channels.
+    - The quiz displays the user's score clearly at the end of the quiz.
 
 * As a customer, I want to be able to book a reservation directly from the website.
 
@@ -345,6 +345,8 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
         - Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.
 
+        - Once an answer is selected, users will be unable to select or change their answer. 
+
         - Once an answer is selected, a Next button appears at the bottom of the quiz.   
 
         - Clicking on the Next button will bring the user to the next question.
@@ -366,7 +368,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
         - Clicking on the home icon button will bring the user back to the Welcome Modal.
 
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 
 ## Finished Product
@@ -377,7 +379,7 @@ Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![M
 Menu | ![Desktop menu page image](assets/readme-files/desktop-menu.png) | ![Mobile menu page image](assets/readme-files/mobile-menu.png)
 Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png) | ![Mobile contact page image](assets/readme-files/mobile-contact.png)
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 
 ## Deployment
@@ -400,7 +402,7 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 
 ## Credits 
@@ -425,7 +427,7 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 * [W3Schools](https://www.w3schools.com/) was consulted on a regular basis for inspiration.
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
 
 
 ## Acknowledgements
@@ -434,4 +436,4 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 * My tutor, Marcel, for his invaluable feedback and guidance.
 
-[Back to top ⇧](#las-tacos)
+[Back to top ⇧](#music-quiz)
