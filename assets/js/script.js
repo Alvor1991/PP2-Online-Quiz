@@ -52,7 +52,7 @@ const quiz = [
     {
         question: "Who was the lead guitarist of the band Led Zeppelin?",
         answers: [
-            { text: "Jimmy", correct: true},
+            { text: "Jimmy Page", correct: true},
             { text: "Robert Plant", correct: false},
             { text: "Keith Richards", correct: false},
             { text: "Joe Perry", correct: false},
@@ -60,7 +60,7 @@ const quiz = [
     },
 
     {
-        question: "Who was the lead guitarist of the band Led Zeppelin?",
+        question: "Who sang the hit song 'Let It Be' in 1970?",
         answers: [
             { text: "John Lennon", correct: false},
             { text: "Paul McCartney", correct: true},
@@ -70,7 +70,7 @@ const quiz = [
     },
 
     {
-        question: "Who was the lead guitarist of the band Led Zeppelin?",
+        question: "Who sang the hit song 'Superstition', released in 1972?",
         answers: [
             { text: "Marvin Gaye", correct: false},
             { text: "Al Green", correct: false},
@@ -80,7 +80,7 @@ const quiz = [
     },
 
     {
-        question: "Who was the lead guitarist of the band Led Zeppelin?",
+        question: "Which Bee Gees song was their first number-one hit single in 1971?",
         answers: [
             { text: "How Can You Mend a Broken Heart", correct: true},
             { text: "How Deep Is Your Love", correct: false},
@@ -168,14 +168,29 @@ function scoreCounter() {
     incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
 }
 
+
+
+
 /** Function to display score */ 
 function displayScore(){
     clearAnswer();
-    questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} out of ${quiz.length}!</span>`;
+    let scoreMessage = "";
+    if (playerScore === 10) {
+        scoreMessage = "Perfect score! You're a true 1970s music expert!";
+    } else if (playerScore >= 7) {
+        scoreMessage = "Great job! You really know your 1970s music!";
+    } else if (playerScore >= 5) {
+        scoreMessage = "Not bad! Keep rocking and learning!";
+    } else {
+        scoreMessage = "Keep exploring! You'll improve with practice!";
+    }
+    questionElement.innerHTML = `<span class="score-message">You scored ${playerScore} out of ${quiz.length}!<br>${scoreMessage}</span>`;
     document.getElementById("score").style.display = "none";
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
+
+
 
 /** Function to update progress bar */ 
 function updateProgressBar() {
