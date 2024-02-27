@@ -216,6 +216,17 @@ nextButton.addEventListener("click", ()=>{
 beginQuiz();
 
 
+
+function hideQuizContainer() {
+    const quizContainer = document.querySelector(".quiz-container");
+    quizContainer.style.display = "none"; // Hide the quiz container
+}
+
+function showQuizContainer() {
+    const quizContainer = document.querySelector(".quiz-container");
+    quizContainer.style.display = "block"; // Show the quiz container
+}
+
 /** Function to show welcome modal */ 
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
@@ -225,14 +236,17 @@ function showWelcomeModal() {
     startButton.onclick = function() {
         welcomeModal.style.display = "none";
         beginQuiz();
+        showQuizContainer();
     }
 
     rulesButton.onclick = function() {
         welcomeModal.style.display = "none";
         rulesModal.style.display = "block";
+        hideQuizContainer();
     }
 
     welcomeModal.style.display = "block";
+    hideQuizContainer();
 }
 
 window.onload = showWelcomeModal;
@@ -243,9 +257,11 @@ var startFromRules = document.getElementById("rules-btn");
 
 homeButton.onclick = function() {
     rulesModal.style.display = "none";
+    showQuizContainer();
 }
 
 startFromRules.onclick = function() {
     rulesModal.style.display = "none";
     beginQuiz();
+    showQuizContainer(); 
 }
