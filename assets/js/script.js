@@ -230,10 +230,10 @@ function showWelcomeModal() {
 window.onload = showWelcomeModal;
 
 var rulesModal = document.getElementById("rules-modal");
-var closeButton = document.getElementsByClassName("close")[0];
+var homeButton = document.getElementsByClassName("home")[0];
 var startFromRules = document.getElementById("rules-btn");
 
-closeButton.onclick = function() {
+homeButton.onclick = function() {
     rulesModal.style.display = "none";
 }
 
