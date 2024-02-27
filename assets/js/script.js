@@ -206,8 +206,6 @@ nextButton.addEventListener("click", ()=>{
 beginQuiz();
 
 
-// Modal
-
 /** Function to show welcome modal */ 
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
