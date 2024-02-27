@@ -215,12 +215,13 @@ nextButton.addEventListener("click", ()=>{
 
 beginQuiz();
 
-
+/** Function to hide quiz container */ 
 function hideQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
     quizContainer.style.display = "none"; 
 }
 
+/** Function to show quiz container */ 
 function showQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
     quizContainer.style.display = "block"; 
