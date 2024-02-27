@@ -7,7 +7,9 @@
 
 body {
   background: url("../images/music.webp.jpg") no-repeat center center/cover;
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
 }
+
 
 /*******************  
 * MUSIC QUIZ STYLES *
@@ -119,6 +121,20 @@ body {
   color: red; 
 }
 
+/* Score Message Styles */
+
+.score-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3366ff; 
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  margin-top: 20px;
+}
+
 
 /****************  
 * MODAL STYLES *
@@ -176,21 +192,6 @@ body {
   padding-bottom: 10px
 }
 
-/* Score Message Styles */
-
-.score-message {
-  font-size: 18px;
-  font-weight: bold;
-  color: #3366ff; 
-  text-align: center; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 100%; 
-  margin-top: 20px;
-}
-
-
 @media screen and (max-width: 768px) {
   .quiz-container {
     position: static; 
@@ -199,7 +200,7 @@ body {
     transform: none; 
     width: 80%; 
     max-width: 700px; 
-    margin: 100px auto 0; 
+    margin: 0 auto; 
     border-radius: 15px;
   }
 }
