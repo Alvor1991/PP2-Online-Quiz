@@ -168,9 +168,6 @@ function scoreCounter() {
     incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
 }
 
-
-
-
 /** Function to display score */ 
 function displayScore(){
     clearAnswer();
@@ -189,8 +186,6 @@ function displayScore(){
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
-
-
 
 /** Function to update progress bar */ 
 function updateProgressBar() {

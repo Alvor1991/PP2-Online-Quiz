@@ -9,9 +9,9 @@ body {
   background: url("../images/music.webp.jpg") no-repeat center center/cover;
 }
 
-/****************  
+/*******************  
 * MUSIC QUIZ STYLES *
-****************/
+********************/
 
 .quiz-container {
     background: #fff;
@@ -98,31 +98,26 @@ body {
     background: red;
   }
 
-/* Add these styles to your CSS */
+/* Score Counter Styles */
+
 #score {
   font-size: 18px;
   font-weight: bold;
   color: black;
   text-align: center;
-  margin-top: 20px; /* Adjust margin as needed */
 }
 
 #score span {
-  margin: 0 5px; /* Add spacing between the text and the numbers */
+  margin: 0 5px; 
 }
 
 #correct-answers {
-  color: green; /* Make correct answers green */
+  color: green; 
 }
 
 #incorrect-answers {
-  color: red; /* Make incorrect answers red */
+  color: red; 
 }
-
-
-
-
-
 
 
 /****************  
@@ -181,7 +176,7 @@ body {
   padding-bottom: 10px
 }
 
-
+/* Score Message Styles */
 
 .score-message {
   font-size: 18px;
@@ -192,6 +187,7 @@ body {
   justify-content: center; 
   align-items: center; 
   height: 100%; 
+  margin-top: 20px;
 }
 
 
