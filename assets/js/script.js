@@ -40,6 +40,16 @@ const quiz = [
     },
 
     {
+        question: "Which song by Elton John was a massive hit in 1973?",
+        answers: [
+            { text: "Rocket Man", correct: false},
+            { text: "Goodbye Yellow Brick Road", correct: true},
+            { text: "Your Song", correct: false},
+            { text: "Tiny Dancer", correct: false},
+        ]
+    },
+
+    {
         question: "Who released the hit song 'I Will Survive' in 1978?",
         answers: [
             { text: "Diana Ross", correct: false},
@@ -80,12 +90,12 @@ const quiz = [
     },
 
     {
-        question: "Which Bee Gees song was their first number-one hit single in 1971?",
+        question: "Which American singer-songwriter released the album 'Horses' in 1975?",
         answers: [
-            { text: "How Can You Mend a Broken Heart", correct: true},
-            { text: "How Deep Is Your Love", correct: false},
-            { text: "Tragedy", correct: false},
-            { text: "Stayin' Alive", correct: false},
+            { text: "Patti Smith", correct: true},
+            { text: "Janis Joplin", correct: false},
+            { text: "Joan Baez", correct: false},
+            { text: "Stevie Nicks", correct: false},
         ]
     }
 ];

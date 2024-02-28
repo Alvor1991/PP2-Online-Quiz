@@ -212,36 +212,24 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The quiz offers a clear and simple layout for users to navigate through each question.
 
-    - The quiz offers a clear and simple layout for users to navigate through each question.
-
-    - The navigation bar is clearly presented in all pages for customers to find with ease and it is easily navigable.
-
 * As a user, I want engaging and challenging quiz questions that provide an enjoyable experience.
 
     - The quiz contains 4 possible answers, which makes the questions challenging.
 
 * As a user, I want clear instructions on how to play the quiz and understand the rules.
 
-    - The quiz rules are very simple and listed in clear bullet points. 
+    - The quiz rules are simple and listed in clear bullet points. 
 
 * As a user, I want to easily find my final quiz score.
 
     - The quiz displays the user's score clearly at the end of the quiz.
 
-* As a customer, I want to be able to book a reservation directly from the website.
-
-    - The contact page provides a reservation form for the customer to book a reservation.
-
-    - The contact page can be accessed in three separate ways: the navigation bar, a button on the landing page and in the footer.
-
-* As a customer, I want to easily find the business' location.
-
-    - The contact page contains a find us section with a Google map of the business' geographical location.
+    - A score counter displays throughout the quiz.
 
 
 ### Code Validation
 
-* The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) were used to validate all pages of the project in order to ensure there were no syntax errors.
+* The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
     - On the Home page, the W3C Markup Validator found errors concerning headings not being included on the hero section, the intro section and the image section. The hero section tags and image section tags were replaced with divs. The intro section h1 element was replaced with a h2 element.
 
@@ -345,15 +333,15 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
         - Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.
 
-        - Once an answer is selected, users will be unable to select or change their answer. 
+        - Once an answer is selected users will be unable to select or change their answer. 
 
-        - Once an answer is selected, a Next button appears at the bottom of the quiz.   
+        - Once an answer is selected, a Next button appears at the bottom of the quiz. 
 
         - Clicking on the Next button will bring the user to the next question.
 
         - The progress bar updates as each question is completed. 
 
-        - The user's correct and incorrect score updates as each question is completed. 
+        - The score counter updates as each question is completed. 
 
         - Clicking on the home icon button will bring the user back to the Welcome Modal.
 
@@ -409,9 +397,9 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 ### Content
 
-- All content was written by the developer.
+- My previous README.md file structure was used as a reference for this project.
 
-- For README.md file, reference from my first project was considered.
+- Quiz page design, some CSS style and Javascript code was taken and modifed from (https://www.youtube.com/watch?v=PBcqGxrr9g8)
 
 ### Media
 
