@@ -275,7 +275,7 @@ function goToWelcomeModal() {
     }
     
     welcomeModal.style.display = "block"; 
-    showQuizContainer(); // 
+    hideQuizContainer(); // 
 }
 
 // Attach click event listener to each home button/icon

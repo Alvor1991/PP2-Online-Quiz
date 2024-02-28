@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,66 +9,73 @@
     <title>Online Quiz</title>
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-<body>
+  </head>
+  <body>
     <div class="quiz-container">
-        <span id="home-btn" class="home"><i class="fas fa-home"></i></span>
-        <h1>Let's Play</h1>
-        <div class="progress-container">
-            <div class="progress-bar" id="progress-bar"></div>
+      <span id="home-btn" class="home">
+        <i class="fas fa-home"></i>
+      </span>
+      <h1>Let's Play</h1>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="quiz">
+        <h2 id="question">Question?</h2>
+        <div id="answer-buttons">
+          <button class="btn">Answer</button>
+          <button class="btn">Answer</button>
+          <button class="btn">Answer</button>
+          <button class="btn">Answer</button>
         </div>
-        <div class="quiz">
-            <h2 id="question">Question?</h2>
-            <div id="answer-buttons">
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-                <button class="btn">Answer</button>
-            </div>
-            <div id="score">
-                Correct: <span id="correct-answers">0</span> / Incorrect: <span id="incorrect-answers">0</span>
-            </div>
-            <button id="next-btn">Next</button>
+        <div id="score"> Correct: <span id="correct-answers">0</span> / Incorrect: <span id="incorrect-answers">0</span>
         </div>
+        <button id="next-btn">Next</button>
+      </div>
     </div>
-
-     <!-- Welcome Modal -->
-     <div id="welcome-modal" class="modal">
-        <div class="modal-content">
-            <h1>Welcome to our 1970s Music Quiz!</h1>
-            <p>Test your knowledge of iconic artists, chart-topping hits, and the cultural revolution that 
-                defined the seventies music scene.
-            </p>
-            <p>Get ready to boogie down memory lane and see if you've got what it takes to be a 
-                true seventies music maestro! Let's start the quiz!
-            </p>
-            <button id="start-btn" class="btn">Start Quiz</button>
-            <button id="quiz-rules" class="btn">Quiz Rules</button>
-        </div>
+    
+    <!-- Welcome Modal -->
+    <div id="welcome-modal" class="modal">
+      <div class="modal-content">
+        <h1>Welcome to our 1970s Music Quiz!</h1>
+        <p>Test your knowledge of iconic artists, chart-topping hits, and the cultural revolution that defined the 70s music scene. </p>
+        <p>Get ready to boogie down memory lane and see if you've got what it takes to be a true seventies music maestro! Let's start the quiz! </p>
+        <button id="start-btn" class="btn">Start Quiz</button>
+        <button id="quiz-rules" class="btn">Quiz Rules</button>
+      </div>
     </div>
 
     <!-- Quiz Rules Modal -->
     <div id="rules-modal" class="modal">
-        <div class="modal-content">
-            <span id="home-btn" class="home"><i class="fas fa-home"></i></span>
-            <h1>Quiz Rules</h1>
-            <br>
-            <div class="rules">
-                <p><strong>1. Quiz Format:</strong> The quiz consists of 10 questions, each with 4 possible correct answers.</p>
-                <br>
-                <p><strong>2. Answer Selection:</strong> For each question, select the answer you believe is correct from the available options.</p>
-                <br>
-                <p><strong>3. Single Choice:</strong> Only one answer is allowed per question.</p>
-                <br>
-                <p><strong>4. Scoring:</strong> Each correct answer earns you one point.</p>
-                <br>
-                <p><strong>5. Total Score:</strong> At the end of the quiz, your total score out of 10 will be displayed.</p>
-                <br>
-                <button id="rules-btn" class="btn">Start Quiz</button>
+      <div class="modal-content">
+        <span id="home-btn" class="home">
+          <i class="fas fa-home"></i>
+        </span>
+        <h1>Quiz Rules</h1>
+        <br>
+        <div class="rules">
+          <p>
+            <strong>1. Quiz Format:</strong> The quiz consists of 10 questions, each with 4 possible correct answers.
+          </p>
+          <br>
+          <p>
+            <strong>2. Answer Selection:</strong> For each question, select the answer you believe is correct from the available options.
+          </p>
+          <br>
+          <p>
+            <strong>3. Single Choice:</strong> Only one answer is allowed per question.
+          </p>
+          <br>
+          <p>
+            <strong>4. Scoring:</strong> Each correct answer earns you one point.
+          </p>
+          <br>
+          <p>
+            <strong>5. Total Score:</strong> At the end of the quiz, your total score out of 10 will be displayed.
+          </p>
+          <br>
+          <button id="rules-btn" class="btn">Start Quiz</button>
         </div>
-    </div>
-
-    <script src="assets/js/script.js"></script>
-</body>
+      </div>
+      <script src="assets/js/script.js"></script>
+  </body>
 </html>
