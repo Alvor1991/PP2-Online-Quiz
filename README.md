@@ -91,25 +91,6 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 * Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to users.
 
-* **Header**
-![Header image](assets/readme-files/header.png)
-    
-    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
-
-    - The business logo functions as a link to the landing page.
-
-    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to keep with the colour scheme.
-
-    - The navigation bar will collapse on mobile and offer a toggle feature for customers, as shown below.
-
-![Mobile Navigation image](assets/readme-files/mobile-nav.png)
-
-
-* **Footer**
-![Footer image](assets/readme-files/footer.png)
-
-    - The footer includes a smaller version of the logo and link to the business' social media channels.
-
 ### Welcome Modal
 
 * **Hero Image**
@@ -363,9 +344,11 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Menu | ![Desktop menu page image](assets/readme-files/desktop-menu.png) | ![Mobile menu page image](assets/readme-files/mobile-menu.png)
-Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png) | ![Mobile contact page image](assets/readme-files/mobile-contact.png)
+Index | ![Desktop welcome modal](assets/readme-files/desktop-welcome-modal.png) | ![Mobile welcome modal](assets/readme-files/mobile-welcome-modal.png)
+Contact | ![Desktop quiz rules](assets/readme-files/desktop-quiz-rules.png) | ![Mobile quiz rules](assets/readme-files/mobile-quiz-rules.png)
+Contact | ![Desktop quiz begin](assets/readme-files/desktop-quiz-begin.png) | ![Mobile quiz begin](assets/readme-files/mobile-quiz-begin.png)
+Contact | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
+Contact | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
 
 [Back to top ⇧](#music-quiz)
 
@@ -403,13 +386,9 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 ### Media
 
-* [Pexels](https://www.pexels.com/)
+* [Freepik](https://www.freepik.com)
 
-    - Hero image: "mexican tacos on the wooden board" by Roman Odinstov.
-    - Image section cocktail-1 image: "glass of cold cocktail with orange" taken by Charlotte May.
-    - Image section tacos-3 image: "mexican tacos with salsa" taken by Roman Odinstov.
-    - Image section cocktail-2 image: "clear drinking glass with yellow liquid" taken by cottonbro studio.
-    - Image section tacos-3 image: "clear drinking glass with yellow liquid" taken by Roman Odinstov.
+    - Music image from Freepik.
 
 ### Code
 

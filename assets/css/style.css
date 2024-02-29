@@ -37,12 +37,12 @@ body {
   border-bottom: 1px solid;
   padding-bottom: 20px;
   font-weight: 600;
-  color: black;
+  color: #000;
 }
 
 .quiz h2 {
   font-size: 16px;
-  color: black;
+  color: #000;
   font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   font-weight: 600;
-  color: black;
+  color: #000;
   font-size: 14px;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 #next-btn {
-  background: black;
+  background: #000;
   color: white;
   font-weight: 600;
   border: 0;
@@ -95,7 +95,7 @@ body {
 #score {
   font-size: 14px;
   font-weight: bold;
-  color: black;
+  color: #000;
   text-align: center;
   margin: 10px;
 }
@@ -116,7 +116,7 @@ body {
 .score-message {
   font-size: 18px;
   font-weight: bold;
-  color: #83d5a3;
+  color: #000;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -168,10 +168,12 @@ body {
 
 .home {
   color: #333;
-  float: right;
+  margin: 0 auto; 
+  display: block; 
   font-size: 28px;
   font-weight: bold;
 }
+
 .home:hover, .home:focus {
   color: #000;
   text-decoration: none;
@@ -186,7 +188,7 @@ body {
   .score-message {
       font-size: 20px;
       font-weight: bold;
-      color: #3366ff;
+      color: #000;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -212,6 +214,13 @@ body {
 
  .modal-content {
   margin: 100px auto 0;
+}
+
+.home {
+  color: #333;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 }
