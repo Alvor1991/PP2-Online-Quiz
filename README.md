@@ -53,9 +53,9 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
 * As a user, I want to seamlessly navigate the website to access the music quiz and test my knowledge of 1970s music.
 
-* As a user, I want engaging and challenging quiz questions that provide an enjoyable experience and stimulate my curiosity about 1970s music.
+* As a user, I want engaging & challenging quiz questions that provide an enjoyable experience & stimulate my curiosity about 1970s music.
 
-* As a user, I want clear instructions on how to play the quiz and understand the rules, ensuring a smooth and frustration-free experience.
+* As a user, I want clear instructions on how to play the quiz & understand the rules, ensuring a smooth & frustration-free experience.
 
 ### Color Scheme
 ![Color scheme image](assets/readme-files/colour-scheme.png)
@@ -93,25 +93,25 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ### Welcome Modal
 
-* **Hero Image**
-![Hero image](assets/readme-files/hero-image.png)
+* **Quiz Intro**
+![Intro image](assets/readme-files/hero-image.png)
 
     - The hero image is designed to attract the customer's attention with a fresh and modern look.
 
-* **Info Section**
-![Info section image](assets/readme-files/intro-section.png)
+* **Navigation Buttons**
+![Nav buttons image](assets/readme-files/intro-section.png)
 
     - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
 
 ### Music Quiz
 
 * **Progress Bar**
-![Contact section image](assets/readme-files/progress-bar.png)
+![Progress Bar image](assets/readme-files/progress-bar.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
 * **Score Colour**
-![Score Counter image](assets/readme-files/correct-incorrect.png)
+![Score Colour image](assets/readme-files/correct-incorrect.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
@@ -123,22 +123,22 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 ### Player Score 
 
 * **OK Score (1-3)**
-![Contact section image](assets/readme-files/ok-score.png)
+![OK Score image](assets/readme-files/ok-score.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
 * **Good Score (3-6)**
-![Contact section image](assets/readme-files/good-score.png)
+![Good Score image](assets/readme-files/good-score.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
 * **Great Score (6-9)**
-![Contact section image](assets/readme-files/great-score.png)
+![Great Score image](assets/readme-files/great-score.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
 * **Perfect Score (10)**
-![Contact section image](assets/readme-files/perfect-score.png)
+![Perfect Score image](assets/readme-files/perfect-score.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
 
@@ -330,7 +330,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
         - Clicking on the home icon button will bring the user back to the Welcome Modal.
 
-    - **User Score**
+    - **Player Score**
 
         - The user's score is displayed once user completes the quiz.
         

@@ -129,6 +129,13 @@ function displayQuestion(){
     clearAnswer();
     let currentQuestion = quiz[questionIndex];
     let questionNo = questionIndex + 1;
+
+    if (questionIndex === 0) {
+        document.querySelector('.quiz-container h1').textContent = 'Let the Quiz Begin!';
+    } else {
+        document.querySelector('.quiz-container h1').textContent = 'Music Quiz';
+    }
+
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
 
     currentQuestion.answers.forEach(answer => {
