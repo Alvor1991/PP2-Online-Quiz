@@ -2,11 +2,7 @@
 
 ![Las Tacos mockup images](assets/readme-files/mockup-image.png)
 
-Las Tacos is a fictional Mexican restaurant located in the heart of Cork city. Las Tacos offers an authentic Mexican dining experience. The food is a modern twist on time-honoured recipes. The cocktails are a fusion of traditional Mexican spirits and contemporary flavours.
-
-
-The purpose of this website is to promote Las Tacos and to provide information to customers about the restaurant, its menu and contact options. The website targets an audience of customers who enjoy Mexican food in a causal dining experience.
-
+Musid Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
 
 Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
@@ -64,7 +60,11 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 ### Color Scheme
 ![Color scheme image](assets/readme-files/colour-scheme.png)
 
-The colors used in the site are red (#784742), yellow (#E5B87B), two shades of green (#56733C and #FAFCF7) and the colour white for the main background. These colours represent Cinco de Mayo, a celebration of Mexico. I recreated the Mexican flag in the navigation bar and footer elements. A shade of gold is used instead of white, as I wanted the colour to stand out more against a light clean background. For the menu section, the left side is red and the right side is green, consistent with the Las Tacos logo. The desserts heading is in gold to give the menu the complete colour selection and highlight desserts as an indulgent and luxury item.
+The color scheme for the quiz interface features a green background wallpaper, creating a visually appealing backdrop for the quiz content. The quiz itself is presented within a white modal, providing a clean and focused environment for users to engage with the questions. To ensure readability and clarity, black text is employed within the modal, offering a stark contrast against the white background.
+
+In the feedback system, red colors (#e56d6d) are utilized to indicate incorrect scores, drawing attention to areas where users may need improvement or further review. Conversely, green colors (#83d5a3) are employed to signify correct scores, offering positive reinforcement and highlighting successful responses.
+
+Overall, this color scheme prioritizes clarity, readability, and user engagement, enhancing the overall experience of the online quiz.
 
 ### Typography
 
@@ -344,11 +344,11 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop welcome modal](assets/readme-files/desktop-welcome-modal.png) | ![Mobile welcome modal](assets/readme-files/mobile-welcome-modal.png)
-Contact | ![Desktop quiz rules](assets/readme-files/desktop-quiz-rules.png) | ![Mobile quiz rules](assets/readme-files/mobile-quiz-rules.png)
-Contact | ![Desktop quiz begin](assets/readme-files/desktop-quiz-begin.png) | ![Mobile quiz begin](assets/readme-files/mobile-quiz-begin.png)
-Contact | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
-Contact | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
+Welcome modal | ![Desktop welcome modal](assets/readme-files/desktop-welcome-modal.png) | ![Mobile welcome modal](assets/readme-files/mobile-welcome-modal.png)
+Quiz Rules | ![Desktop quiz rules](assets/readme-files/desktop-quiz-rules.png) | ![Mobile quiz rules](assets/readme-files/mobile-quiz-rules.png)
+Quiz Begin | ![Desktop quiz begin](assets/readme-files/desktop-quiz-begin.png) | ![Mobile quiz begin](assets/readme-files/mobile-quiz-begin.png)
+Quiz progress | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
+Quiz Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
 
 [Back to top ⇧](#music-quiz)
 
