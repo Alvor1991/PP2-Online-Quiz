@@ -76,9 +76,10 @@ I want the site to have both an authentic and modern feel. Amatic SC is used for
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Menu | ![Desktop menu wireframe image](assets/wireframes/desktop-menu.png) | ![Mobile menu wireframe image](assets/wireframes/mobile-menu.png)
-Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.png) | ![Mobile contact wireframe image](assets/wireframes/mobile-contact.png)
+Welcome modal | ![Welcome modal wireframe image](assets/wireframes/desktop-welcome-modal.png) | ![Mobile welcome modal wireframe image](assets/wireframes/mobile-index.png)
+Quiz rules | ![Quiz rules wireframe image](assets/wireframes/desktop-quiz-rules.png) | ![Mobile quiz rules wireframe image](assets/wireframes/mobile-menu.png)
+Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) | ![Quiz wireframe image](assets/wireframes/mobile-contact.png)
+Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png) | ![Mobile player score wireframe image](assets/wireframes/mobile-contact.png)
 
 [Back to top ⇧](#music-quiz)
 
@@ -103,41 +104,44 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
 
-* **Intro Section**
-![Intro section image](assets/readme-files/info-section.png)
-
-    - Provides a glimpse into the history, mission, and the unique experience that the business offers. It also provides an option to book a reservation or view the food and cocktails menu. 
-
-* **Image Section**
-![Image section image](assets/readme-files/image-section.png)
-
-    - Contains images, giving the customer a taste of what Mexican food and cocktails the business has to offer. Each image is fully responsive and provides a link to the menu page.
-
-### Quiz Rules Modal
-
-* **Food Section**
-![Food section image](assets/readme-files/food-menu-section.png)
-
-    - This section provides customers with all the food items available.  
-
-    - The food section is fully responsive and easy to replicate in case more food items need to be added.
-
-
-* **Cocktail Section**
-![Cocktail section image](assets/readme-files/cocktail-menu-section.png)
-
-    - This section provides customers with all the cocktails items available.  
-
-    - The food section is fully responsive and easy to replicate in case more cocktail items need to be added.
-
 ### Music Quiz
 
-* **Contact Section**
-![Contact section image](assets/readme-files/contact-section.png)
+* **Progress Bar**
+![Contact section image](assets/readme-files/progress-bar.png)
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
-    
-    - The map displays a Google map of the business' geographical location. This allows customers to easily find the location from their devices.
+
+* **Score Colour**
+![Score Counter image](assets/readme-files/correct-incorrect.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+
+* **Score Counter**
+![Score Counter image](assets/readme-files/score-counter.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+
+### Player Score 
+
+* **OK Score (1-3)**
+![Contact section image](assets/readme-files/ok-score.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+
+* **Good Score (3-6)**
+![Contact section image](assets/readme-files/good-score.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+
+* **Great Score (6-9)**
+![Contact section image](assets/readme-files/great-score.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+
+* **Perfect Score (10)**
+![Contact section image](assets/readme-files/perfect-score.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
 
 [Back to top ⇧](#music-quiz)
 
@@ -146,7 +150,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [CSS3](https://en.wikipedia.org/wiki/JavaScript)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries and Programs Used
 
@@ -181,9 +185,10 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
     - W3C CSS Validator was used to validate the CSS code.
 
 * [JSHint](https://jshint.com)
-    - W3C CSS Validator was used to validate the CSS code.
+    - JSHint was used to validate the JavaScript code.
 
 [Back to top ⇧](#music-quiz)
+
 
 ## Testing
 
@@ -339,16 +344,15 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 [Back to top ⇧](#music-quiz)
 
-
 ## Finished Product
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Welcome modal | ![Desktop welcome modal](assets/readme-files/desktop-welcome-modal.png) | ![Mobile welcome modal](assets/readme-files/mobile-welcome-modal.png)
+Welcome Modal | ![Desktop welcome modal](assets/readme-files/desktop-welcome-modal.png) | ![Mobile welcome modal](assets/readme-files/mobile-welcome-modal.png)
 Quiz Rules | ![Desktop quiz rules](assets/readme-files/desktop-quiz-rules.png) | ![Mobile quiz rules](assets/readme-files/mobile-quiz-rules.png)
 Quiz Begin | ![Desktop quiz begin](assets/readme-files/desktop-quiz-begin.png) | ![Mobile quiz begin](assets/readme-files/mobile-quiz-begin.png)
-Quiz progress | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
-Quiz Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
+Quiz Progress | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
+Player Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
 
 [Back to top ⇧](#music-quiz)
 
@@ -382,7 +386,7 @@ Quiz Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) |
 
 - My previous README.md file structure was used as a reference for this project.
 
-- Quiz page design, some CSS style and Javascript code was taken and modifed from (https://www.youtube.com/watch?v=PBcqGxrr9g8)
+- Quiz page design, some CSS style and JavaScript code was taken and modifed from (https://www.youtube.com/watch?v=PBcqGxrr9g8)
 
 ### Media
 
