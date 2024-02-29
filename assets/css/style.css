@@ -40,9 +40,6 @@ body {
   color: black;
 }
 
-.quiz {
-  padding: 15px 0;
-}
 
 .quiz h2 {
   font-size: 16px;
@@ -88,11 +85,11 @@ body {
 }
 
 .correct {
-  background: #9aeabc;
+  background: #83d5a3;
 }
 
 .incorrect {
-  background: #ff9393;
+  background: #e56d6d;
 }
 
 /* Score Counter Styles */
@@ -101,6 +98,7 @@ body {
   font-weight: bold;
   color: black;
   text-align: center;
+  margin: 10px;
 }
 
 #score span {
@@ -202,11 +200,7 @@ body {
   .quiz h2 {
       font-size: 18px;
  }
-
-  .progress-container {
-      margin: 15px 0;
- }
-
+ 
   #score {
       font-size: 18px;
  }
