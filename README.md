@@ -74,13 +74,12 @@ I want the site to have both an authentic and modern feel. Amatic SC is used for
 
 [Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial designs for the layout. 
 
-Page | Desktop Version | Mobile Version
+Page | Desktop Version
 --- | --- | ---
-Welcome modal | ![Welcome modal wireframe image](assets/wireframes/desktop-welcome-modal.png) | ![Mobile welcome modal wireframe image](assets/wireframes/mobile-index.png)
-Quiz rules | ![Quiz rules wireframe image](assets/wireframes/desktop-quiz-rules.png) | ![Mobile quiz rules wireframe image](assets/wireframes/mobile-menu.png)
-Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) | ![Quiz wireframe image](assets/wireframes/mobile-contact.png)
-Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png) | ![Mobile player score wireframe image](assets/wireframes/mobile-contact.png)
-
+Welcome modal | ![Welcome Modal wireframe image](assets/wireframes/desktop-welcome-modal.png) 
+Quiz rules | ![Quiz Rules wireframe image](assets/wireframes/desktop-quiz-rules.png) 
+Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) 
+Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png)
 [Back to top ⇧](#music-quiz)
 
 
