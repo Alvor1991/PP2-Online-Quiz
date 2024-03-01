@@ -307,7 +307,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
         - Clicking on the home icon button will bring the user back to the Welcome Modal.
 
-        - Once user moves past the first question, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.
+        - Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.
 
     - **Player Score**
 
@@ -337,7 +337,7 @@ Player Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png)
 
 ## Deployment
 
-* This website was developed using [Gitpod](https://www.gitpod.io), which was then committed and pushed to GitHub using Visual Studio Code.
+* This website was developed using [Gitpod](https://www.gitpod.io), then committed and pushed to GitHub using VS Code.
 
 ### GitHub Pages
 
@@ -370,7 +370,7 @@ Player Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png)
 
 * [Freepik](https://www.freepik.com)
 
-    - Music image from Freepik.
+    - Music background image is from Freepik.
 
 ### Code
 
