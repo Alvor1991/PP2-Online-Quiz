@@ -12,13 +12,12 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
     1. [Project Goals](#project-goals)
     2. [User Stories](#user-stories)
     3. [Color Scheme](#color-scheme)
-    4. [Typography](#typography)
-    5. [Wireframes](#wireframes)
+    4. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
-    2. [Landing Page](#landing-page)
-    3. [Menu Page](#menu-page)
-    4. [Contact Page](#contact-page)
+    2. [Welcome Modal](#welcome-modal)
+    3. [Music Quiz](#music-quiz)
+    4. [Player Score](#player-score)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -64,10 +63,6 @@ The color scheme for the quiz interface features a green background wallpaper, c
 In the feedback system, red colors (#e56d6d) are utilized to indicate incorrect scores, drawing attention to areas where users may need improvement or further review. Conversely, green colors (#83d5a3) are employed to signify correct scores, offering positive reinforcement and highlighting successful responses.
 
 Overall, this color scheme prioritizes clarity, readability, and user engagement, enhancing the overall experience of the online quiz.
-
-### Typography
-
-I want the site to have both an authentic and modern feel. Amatic SC is used for the headings, which gives the site a friendly and informal vibe. It evokes a sense of traditional Mexican art, adding a touch of authenticity to the site. It is also used for the logo, reinforcing the Las Tacos brand. The main font used in the site is Lato, with Sans Serif as the fallback font in case Lato is not being imported correctly. The combination of Amatic SC and Lato creates a cohesive visual identity. 
 
 ### Wireframes
 
@@ -219,23 +214,15 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     
     - W3C CSS Validator found no errors or warnings on my CSS.
 
+    - JSHint validation
+
 ### Accessibility
 
 * Used Lighthouse in Chrome DevTools to confirm that colours and fonts used throughout the website are easy to read and accessible.
 
 * Lighthouse reports
 
-    - **Landing Page**
-
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-index.png)
-
-    - **Menu Page**
-
-    ![Lighthouse report for menu page image](assets/readme-files/lighthouse-menu.png)
-
-    - **Contact Page**
-
-    ![Lighthouse report for contact page image](assets/readme-files/lighthouse-contact.png)
+    ![Lighthouse report for website](assets/readme-files/lighthouse-index.png)
 
 
 ### Tools Testing
