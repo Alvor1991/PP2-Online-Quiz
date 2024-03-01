@@ -110,31 +110,32 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     - Highlight the correct (green) and incorrect (red) answers for that question.
 
 * **Score Counter**
-![Score Counter image](assets/readme-files/score-counter.png)
 
     - Visually indicate the user's score as they advance through the quiz.
 
+![Score Counter image](assets/readme-files/score-counter.png)
+
 ### Player Score 
 
-* **OK Score (1-3)**
+* **OK Score (less than 5)**
 ![OK Score image](assets/readme-files/ok-score.png)
 
-    - Scores from 1-3 will display this message.
+    - If user scores less than 5, this message will display.
 
-* **Good Score (3-6)**
+* **Good Score (5 or above)**
 ![Good Score image](assets/readme-files/good-score.png)
 
-    - Scores from 3-6 will display this message.
+    - If user scores 5 or above, this message will display.
 
-* **Great Score (6-9)**
+* **Great Score (7 or above)**
 ![Great Score image](assets/readme-files/great-score.png)
 
-    - Scores from 6-9 will display this message.
+    - If user scores 7 or above, this message will display.
 
 * **Perfect Score (10)**
 ![Perfect Score image](assets/readme-files/perfect-score.png)
 
-    - A score of 10 will display this message.
+    - A perfect score of 10 will display this message.
 
 [Back to top ⇧](#music-quiz)
 
