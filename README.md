@@ -214,7 +214,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     
     - W3C CSS Validator found no errors or warnings on my CSS.
 
-    - JSHint validation
+    - JSHint identified missing semicolons and warned about the usage of const and let, which are features introduced in ES6.
 
 ### Accessibility
 
