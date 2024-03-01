@@ -58,7 +58,6 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 * As a user, I want clear instructions on how to play the quiz & understand the rules, ensuring a smooth & frustration-free experience.
 
 ### Color Scheme
-![Color scheme image](assets/readme-files/colour-scheme.png)
 
 The color scheme for the quiz interface features a green background wallpaper, creating a visually appealing backdrop for the quiz content. The quiz itself is presented within a white modal, providing a clean and focused environment for users to engage with the questions. To ensure readability and clarity, black text is employed within the modal, offering a stark contrast against the white background.
 
@@ -75,9 +74,9 @@ I want the site to have both an authentic and modern feel. Amatic SC is used for
 [Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial designs for the layout. 
 
 Page | Desktop Version
---- | --- | ---
-Welcome modal | ![Welcome Modal wireframe image](assets/wireframes/desktop-welcome-modal.png) 
-Quiz rules | ![Quiz Rules wireframe image](assets/wireframes/desktop-quiz-rules.png) 
+--- | ---
+Welcome Modal | ![Welcome Modal wireframe image](assets/wireframes/desktop-welcome-modal.png) 
+Quiz Rules | ![Quiz Rules wireframe image](assets/wireframes/desktop-quiz-rules.png) 
 Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) 
 Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png)
 [Back to top ⇧](#music-quiz)
@@ -94,12 +93,12 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 ### Welcome Modal
 
 * **Quiz Intro**
-![Intro image](assets/readme-files/hero-image.png)
+![Intro image](assets/readme-files/quiz-intro.png)
 
     - The hero image is designed to attract the customer's attention with a fresh and modern look.
 
 * **Navigation Buttons**
-![Nav buttons image](assets/readme-files/intro-section.png)
+![Nav buttons image](assets/readme-files/nav-buttons.png)
 
     - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
 
@@ -108,39 +107,39 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 * **Progress Bar**
 ![Progress Bar image](assets/readme-files/progress-bar.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - The progress bar updates as each question is completed.
 
 * **Score Colour**
 ![Score Colour image](assets/readme-files/correct-incorrect.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.
 
 * **Score Counter**
 ![Score Counter image](assets/readme-files/score-counter.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - The score counter updates as each question is completed.
 
 ### Player Score 
 
 * **OK Score (1-3)**
 ![OK Score image](assets/readme-files/ok-score.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - Scores from 1-3 will display this message.
 
 * **Good Score (3-6)**
 ![Good Score image](assets/readme-files/good-score.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - Scores from 3-6 will display this message.
 
 * **Great Score (6-9)**
 ![Great Score image](assets/readme-files/great-score.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - Scores from 6-9 will display this message.
 
 * **Perfect Score (10)**
 ![Perfect Score image](assets/readme-files/perfect-score.png)
 
-    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    - A score of 10 will display this message.
 
 [Back to top ⇧](#music-quiz)
 
@@ -216,11 +215,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - On the Home page, the W3C Markup Validator found errors concerning headings not being included on the hero section, the intro section and the image section. The hero section tags and image section tags were replaced with divs. The intro section h1 element was replaced with a h2 element.
-
-    - On the Menu page, the W3C Markup Validator found errors regarding duplicate ID values for section tags. I replaced these IDs with classes. Another error was found concerning h1 element to be used as a top-level heading only. I replaced this with a h2 element.
-
-    - On the Contact page, the W3C Markup Validator found errors concerning the iframe - a bad value of 100% for attribute width. Removed html iframe styling and replaced the same values in custom CSS. 
+    - W3C Markup Validator found errors found errors regarding duplicate ID values for the home button icon. I replaced these IDs with classes
     
     - W3C CSS Validator found no errors or warnings on my CSS.
 

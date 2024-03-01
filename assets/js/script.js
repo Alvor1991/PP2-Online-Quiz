@@ -254,13 +254,13 @@ function showWelcomeModal() {
         welcomeModal.style.display = "none";
         beginQuiz();
         showQuizContainer();
-    }
+    };
 
     rulesButton.onclick = function() {
         welcomeModal.style.display = "none";
         rulesModal.style.display = "block";
         hideQuizContainer();
-    }
+    };
 
     welcomeModal.style.display = "block";
     hideQuizContainer();
@@ -296,4 +296,4 @@ startFromRules.onclick = function() {
     rulesModal.style.display = "none";
     beginQuiz();
     showQuizContainer(); 
-}
+};
