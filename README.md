@@ -50,7 +50,7 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
 ### User Stories
 
-* As a user, I want to seamlessly navigate the website to access the music quiz & test my knowledge of 1970s music.
+* As a user, I want to seamlessly navigate the music quiz and test my knowledge of 1970s music.
 
 * As a user, I want engaging & challenging quiz questions that provide an enjoyable experience & stimulate my curiosity about 1970s music.
 
@@ -101,19 +101,19 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 * **Progress Bar**
 ![Progress Bar image](assets/readme-files/progress-bar.png)
-
     - Visually indicate the user's advancement through the quiz.
+
 
 * **Answer Colour**
 ![Answer Colour image](assets/readme-files/correct-incorrect.png)
-
     - Highlight the correct (green) and incorrect (red) answers for that question.
+
 
 * **Score Counter**
 
+![Score Counter image](assets/readme-files/score-counter.png)
     - Visually indicate the user's score as they advance through the quiz.
 
-![Score Counter image](assets/readme-files/score-counter.png)
 
 ### Player Score 
 
@@ -228,18 +228,12 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ### Tools Testing
 
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used during the development process to test, explore and modify HTML, CSS and Javascript elements used in the project.
 
-    - Chrome DevTools was used during the development process to test, explore and modify HTML, CSS and Javascript elements used in the project.
+* [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
-* Responsiveness
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness on different screen sizes.
     
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
-
-    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness on different screen sizes.
-    
-    - Chrome DevTools was used to test responsiveness in different screen sizes during development.
-
 
 ### Manual Testing
 
