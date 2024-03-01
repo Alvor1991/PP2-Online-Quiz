@@ -50,7 +50,7 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
 ### User Stories
 
-* As a user, I want to seamlessly navigate the website to access the music quiz and test my knowledge of 1970s music.
+* As a user, I want to seamlessly navigate the website to access the music quiz & test my knowledge of 1970s music.
 
 * As a user, I want engaging & challenging quiz questions that provide an enjoyable experience & stimulate my curiosity about 1970s music.
 
@@ -66,7 +66,7 @@ Overall, this color scheme prioritizes clarity, readability, and user engagement
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial designs for the layout. 
+[Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial layout designs. As you will see in the features section, I have since added a progress bar and a score counter.  
 
 Page | Desktop Version
 --- | ---
@@ -90,29 +90,29 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-intro.png)
 
-    - The hero image is designed to attract the customer's attention with a fresh and modern look.
+    - This informs users about the presence of the quiz, its purpose, and what they can expect from it.
 
 * **Navigation Buttons**
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
 
-    - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
+    - Provide users with clear and accessible options to start quiz or view quiz rules.
 
 ### Music Quiz
 
 * **Progress Bar**
 ![Progress Bar image](assets/readme-files/progress-bar.png)
 
-    - The progress bar updates as each question is completed.
+    - Visually indicate the user's advancement through the quiz.
 
-* **Score Colour**
-![Score Colour image](assets/readme-files/correct-incorrect.png)
+* **Answer Colour**
+![Answer Colour image](assets/readme-files/correct-incorrect.png)
 
-    - Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.
+    - Highlight the correct (green) and incorrect (red) answers for that question.
 
 * **Score Counter**
 ![Score Counter image](assets/readme-files/score-counter.png)
 
-    - The score counter updates as each question is completed.
+    - Visually indicate the user's score as they advance through the quiz.
 
 ### Player Score 
 
@@ -151,16 +151,16 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     - Google Fonts was used to import the fonts Amatic SC and Lato into the style.css file. These fonts were used throughout the site.
 
 * [Font Awesome](https://fontawesome.com/)
-     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+    - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
 * [GitPod](https://www.gitpod.io)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
+    - GitPod was used for writing code, committing, and then pushing to GitHub.
 
 * [GitHub](https://github.com/)
-     - GitHub was used to store the project after pushing.
+    - GitHub was used to store the project after pushing.
 
 * [Balsamiq](https://balsamiq.com/)
-     - Balsamiq was used to create the wireframes during the design phase of the project.
+    - Balsamiq was used to create the wireframes during the design phase of the project.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/)
     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
@@ -311,6 +311,8 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
         - The score counter updates as each question is completed. 
 
         - Clicking on the home icon button will bring the user back to the Welcome Modal.
+
+        - Once user moves past the first question, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.
 
     - **Player Score**
 
