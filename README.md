@@ -14,10 +14,9 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
     3. [Color Scheme](#color-scheme)
     4. [Wireframes](#wireframes)
 2. [Features](#features)
-    1. [General](#general)
-    2. [Welcome Modal](#welcome-modal)
-    3. [Music Quiz](#music-quiz)
-    4. [Player Score](#player-score)
+    1. [Welcome Modal](#welcome-modal)
+    2. [Music Quiz](#music-quiz)
+    3. [Player Score](#player-score)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -79,12 +78,6 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ## Features
 
-### General
-
-* Responsive design across all device sizes.
-
-* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to users.
-
 ### Welcome Modal
 
 * **Quiz Intro**
@@ -96,6 +89,13 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
 
     - Provide users with clear and accessible options to start quiz or view quiz rules.
+
+### Quiz Rules
+
+* **Quiz Intro**
+![Intro image](assets/readme-files/quiz-rules.png)
+
+    - Provide users with clear instructions of how the quiz works.
 
 ### Music Quiz
 
@@ -112,6 +112,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 * **Score Counter**
 
 ![Score Counter image](assets/readme-files/score-counter.png)
+
     - Visually indicate the user's score as they advance through the quiz.
 
 
