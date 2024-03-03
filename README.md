@@ -104,37 +104,36 @@ Here are the main features of my website and the value they bring to users. Each
 
 * **Progress Bar**
 ![Progress Bar image](assets/readme-files/progress-bar.png)
-    - Visually indicate the user's advancement through the quiz.
+    - The Progress Bar feature is a visual indicator of user advancement through the quiz, offering a sense of direction and accomplishment. By tracking progress in real-time, users are engaged and motivated to continue until completion. This feature enhances user experience by providing a clear sense of where they are in the quiz. With a visual representation of progress, users are more likely to stay engaged, resulting in a more fulfilling and satisfying quiz experience overall.
 
 
 * **Answer Colour**
 ![Answer Colour image](assets/readme-files/correct-incorrect.png)
-    - Highlight the correct (green) and incorrect (red) answers for that question.
+    - The Answer Colour feature provides immediate feedback on user responses, highlighting correct answers in green and incorrect ones in red. This instant visual cue not only helps users understand their performance but also encourages learning through trial and error. By offering clear and concise feedback, the feature enhances user engagement, fosters a deeper understanding of the quiz content, and promotes a sense of progression as users navigate through the questions. 
 
 
 * **Score Counter**
 ![Score Counter image](assets/readme-files/score-counter.png)
-
     - The Score Counter feature serves as a vital component in enhancing user engagement and motivation throughout the quiz experience. By dynamically updating in real-time as users progress through the quiz, it provides immediate feedback on their performance, reinforcing their sense of accomplishment and investment in the activity. The visual representation of the score not only offers users a clear indication of their current standing but also stimulates a sense of progression and achievement as they move closer to completing the quiz. 
 
 ### Player Score 
 
-The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress, driving users to strive for higher scores and engage more deeply with the quiz content.
+The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation to play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress, driving users to strive for higher scores and engage more deeply with the quiz content.
 
 * **OK Score (less than 5)**
 ![OK Score image](assets/readme-files/ok-score.png)
 
-    - If user scores less than 5, this message will display.
+    - If the user scores less than 5, this message will display.
 
 * **Good Score (5 or above)**
 ![Good Score image](assets/readme-files/good-score.png)
 
-    - If user scores 5 or above, this message will display.
+    - If the user scores 5 or above, this message will display.
 
 * **Great Score (7 or above)**
 ![Great Score image](assets/readme-files/great-score.png)
 
-    - If user scores 7 or above, this message will display.
+    - If the user scores 7 or above, this message will display.
 
 * **Perfect Score (10)**
 ![Perfect Score image](assets/readme-files/perfect-score.png)
@@ -153,7 +152,7 @@ The Player Score feature adds significant value to the overall user experience b
 ### Frameworks, Libraries and Programs Used
 
 * [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+    - Font Awesome was used throughout all pages to add icons to create a better visual experience for UX purposes.
 
 * [GitPod](https://www.gitpod.io)
     - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -171,7 +170,7 @@ The Player Score feature adds significant value to the overall user experience b
     - Responsive Design Checker was used to check responsiveness on various devices.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review & test responsiveness.
+    - Chrome DevTools was used during the development process for code review & test responsiveness.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -210,7 +209,7 @@ The Player Score feature adds significant value to the overall user experience b
 
 ### Code Validation
 
-* The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+* The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) services were used to validate all pages of the project to ensure there were no syntax errors.
 
     - W3C Markup Validator found errors found errors regarding duplicate ID values for the home button icon. I replaced these IDs with classes
     
@@ -222,9 +221,7 @@ The Player Score feature adds significant value to the overall user experience b
 
 ### Accessibility
 
-* Used Lighthouse in Chrome DevTools to confirm that colours and fonts used throughout the website are easy to read and accessible.
-
-* Lighthouse reports
+* Used Lighthouse in Chrome DevTools to confirm that colors and fonts used are easy to read and accessible.
 
     ![Lighthouse report for website](assets/readme-files/lighthouse-report.png)
 
@@ -244,7 +241,7 @@ The Player Score feature adds significant value to the overall user experience b
 
     - The website has been tested on the following browsers:
 
-        - Goolgle Chrome, Safari and Mozilla Firefox
+        - Google Chrome, Safari and Mozilla Firefox
         
         No appearance, responsiveness or functionality issues.
 
@@ -254,7 +251,7 @@ The Player Score feature adds significant value to the overall user experience b
 
         - MacBook Air, iMac20, iPhone 12 and iPhone 11
 
-        No appearance, responsiveness nor functionality issues.
+        No appearance, responsiveness or functionality issues.
 
 * Common Elements Testing
 
@@ -270,16 +267,16 @@ TEST            | OUTCOME                          | PASS / FAIL
 Start Quiz | Clicking on the Start Quiz button will bring the user to the Music Quiz.| PASS
 Home Icon| Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 
-### Music Quiz
+#### Music Quiz
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Click Answer | Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.| PASS
-Post click answer | Once an answer is selected, all other answers will be disbled and a Next button will apear.| PASS
+Post click answer | Once an answer is selected, all other answers will be disabled and a Next button will appear.| PASS
 Next Button | Clicking on the Next button will bring the user to the next question.| PASS
 Progress Bar | The progress bar updates as each question is completed.| PASS
 Score Counter | The score counter updates as each question is completed| PASS
 Home Icon | Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
-Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.| PASS
+Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Music Quiz'.| PASS
 
 ### Player Score
 TEST            | OUTCOME                          | PASS / FAIL  
