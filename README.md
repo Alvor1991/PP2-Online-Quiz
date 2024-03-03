@@ -2,7 +2,7 @@
 
 ![Las Tacos mockup images](assets/readme-files/mockup-image.png)
 
-1970s Musid Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
+1970s Music Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
 
 Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
 
@@ -73,29 +73,32 @@ Welcome Modal | ![Welcome Modal wireframe image](assets/wireframes/desktop-welco
 Quiz Rules | ![Quiz Rules wireframe image](assets/wireframes/desktop-quiz-rules.png) 
 Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) 
 Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png)
+
 [Back to top ⇧](#music-quiz)
 
 
 ## Features
+
+Here are the main features of my website and the value they bring to users. Each feature within the website's quiz interface serves a distinct purpose, collectively enhancing user engagement and satisfaction. From the informative Quiz Intro to the interactive Answer Colour feedback, each element contributes to a seamless and enjoyable quiz experience. 
 
 ### Welcome Modal
 
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-intro.png)
 
-    - This informs users about the presence of the quiz, its purpose, and what they can expect from it.
+    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory content not only informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. With engaging and purposeful messaging, the Quiz Intro feature piques users' curiosity and motivates them to delve further into the quiz content. Overall, it plays a crucial role in laying the foundation for a positive user experience, ensuring users are well-prepared and excited to embark on the quiz. 
 
 * **Navigation Buttons**
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
 
-    - Provide users with clear and accessible options to start quiz or view quiz rules.
+    - The Navigation Buttons provide users with clear and accessible options to either start the quiz or view quiz rules. This straightforward design element ensures ease of use and navigation throughout the quiz experience. By offering intuitive choices, users can quickly progress through the quiz or seek additional information as needed, enhancing overall usability and engagement. The simplicity of the navigation buttons streamlines the user journey, minimizing barriers to entry and allowing participants to focus on the quiz content itself. 
 
 ### Quiz Rules
 
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-rules.png)
 
-    - Provide users with clear instructions of how the quiz works.
+    - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature not only enhances user comprehension but also minimizes confusion and frustration, thereby optimizing the overall user experience. With straightforward explanations, users can confidently engage with the quiz, maximizing their enjoyment and learning potential..
 
 ### Music Quiz
 
@@ -112,10 +115,11 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 * **Score Counter**
 ![Score Counter image](assets/readme-files/score-counter.png)
 
-    - Visually indicate the user's score as they advance through the quiz.
-
+    - The Score Counter feature serves as a vital component in enhancing user engagement and motivation throughout the quiz experience. By dynamically updating in real-time as users progress through the quiz, it provides immediate feedback on their performance, reinforcing their sense of accomplishment and investment in the activity. The visual representation of the score not only offers users a clear indication of their current standing but also stimulates a sense of progression and achievement as they move closer to completing the quiz. 
 
 ### Player Score 
+
+The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress, driving users to strive for higher scores and engage more deeply with the quiz content.
 
 * **OK Score (less than 5)**
 ![OK Score image](assets/readme-files/ok-score.png)
@@ -148,9 +152,6 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ### Frameworks, Libraries and Programs Used
 
-* [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Amatic SC and Lato into the style.css file. These fonts were used throughout the site.
-
 * [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
@@ -164,13 +165,13 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     - Balsamiq was used to create the wireframes during the design phase of the project.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/)
-    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+    - Am I Responsive was used to generate a mockup image of the website.
 
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/)
-    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+    - Responsive Design Checker was used to check responsiveness on various devices.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review and to test responsiveness.
+    - Chrome DevTools was used during development process for code review & test responsiveness.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -225,7 +226,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 * Lighthouse reports
 
-    ![Lighthouse report for website](assets/readme-files/lighthouse-index.png)
+    ![Lighthouse report for website](assets/readme-files/lighthouse-report.png)
 
 
 ### Tools Testing
@@ -239,7 +240,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ### Manual Testing
 
-**Browser Compatibility**
+* Browser Compatibility
 
     - The website has been tested on the following browsers:
 
@@ -247,7 +248,7 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
         
         No appearance, responsiveness or functionality issues.
 
-**Device Compatibility**
+* Device Compatibility
 
     - The website has been tested on multiple devices, including:
 
@@ -257,50 +258,36 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 * Common Elements Testing
 
-    - **Welcome Modal**
+ ### Welcome Modal
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Start Quiz | Clicking on the Start Quiz button will bring the user to the Music Quiz.| PASS
+Quiz Rules | Clicking on the Quiz Rules button will bring the user to the Quiz Rules Modal.| PASS
 
-        - Clicking on the Start Quiz button will bring the user to the Music Quiz.
+ ### Quiz Rules
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Start Quiz | Clicking on the Start Quiz button will bring the user to the Music Quiz.| PASS
+Home Icon| Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 
-        - Clicking on the Quiz Rules button will bring the user to the Quiz Rules Modal.
+### Music Quiz
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Click Answer | Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.| PASS
+Post click answer | Once an answer is selected, all other answers will be disbled and a Next button will apear.| PASS
+Next Button | Clicking on the Next button will bring the user to the next question.| PASS
+Progress Bar | The progress bar updates as each question is completed.| PASS
+Score Counter | The score counter updates as each question is completed| PASS
+Home Icon | Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
+Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.| PASS
 
-        - Hovering over either of these buttons will trigger a hover effect.
-
-    - **Quiz Rules Modal**
-
-        - Clicking on the Start Quiz button will bring the user to the Music Quiz.
-
-        - Clicking on the home icon button will bring the user back to the Welcome Modal.
-
-        - Hovering over either of these buttons will trigger a hover effect.
-
-    - **Music Quiz**
-
-        - Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.
-
-        - Once an answer is selected users will be unable to select or change their answer. 
-
-        - Once an answer is selected, a Next button appears at the bottom of the quiz. 
-
-        - Clicking on the Next button will bring the user to the next question.
-
-        - The progress bar updates as each question is completed. 
-
-        - The score counter updates as each question is completed. 
-
-        - Clicking on the home icon button will bring the user back to the Welcome Modal.
-
-        - Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Muisc Quiz'.
-
-    - **Player Score**
-
-        - The user's score is displayed once user completes the quiz.
-        
-        - The progress bar is full. 
-
-        - Clicking on the Play Again button will bring the user back to the start of the quiz.
-        
-        - Clicking on the home icon button will bring the user back to the Welcome Modal.
-
+### Player Score
+TEST            | OUTCOME                          | PASS / FAIL  
+--------------- | -------------------------------- | ---------------
+Player Score | The user's score is displayed once user completes the quiz.| PASS
+Progress Bar| The progress bar is full.| PASS
+Play Again| Clicking on the Play Again button will bring the user back to the start of the quiz.| PASS
+Home Icon| Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 
 [Back to top ⇧](#music-quiz)
 
