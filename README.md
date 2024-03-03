@@ -4,7 +4,7 @@
 
 1970s Musid Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
 
-Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
+Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
 
 ## Table of Contents
 
@@ -239,39 +239,19 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 ### Manual Testing
 
-* Browser Compatibility
+**Browser Compatibility**
 
     - The website has been tested on the following browsers:
 
-        - **Goolgle Chrome**
+        - Goolgle Chrome, Safari and Mozilla Firefox
         
         No appearance, responsiveness or functionality issues.
 
-        - **Safari**
-        
-        No appearance, responsiveness or functionality issues.
-
-        - **Mozilla Firefox**
-        
-        No appearance, responsiveness or functionality issues.
-
-* Device compatibility
+**Device Compatibility**
 
     - The website has been tested on multiple devices, including:
 
-        - **MacBook Air"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iMac20,1**
-
-        No appearance, responsiveness nor functionality issues.
-
-         - **iPhone 12**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone 11**
+        - MacBook Air, iMac20, iPhone 12 and iPhone 11
 
         No appearance, responsiveness nor functionality issues.
 
