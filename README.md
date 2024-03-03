@@ -2,7 +2,7 @@
 
 ![Las Tacos mockup images](assets/readme-files/mockup-image.png)
 
-Musid Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
+1970s Musid Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
 
 Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 
@@ -110,7 +110,6 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
 
 
 * **Score Counter**
-
 ![Score Counter image](assets/readme-files/score-counter.png)
 
     - Visually indicate the user's score as they advance through the quiz.
@@ -217,6 +216,8 @@ Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-
     - W3C CSS Validator found no errors or warnings on my CSS.
 
     - JSHint identified missing semicolons and warned about the usage of const and let, which are features introduced in ES6.
+
+    ![Score Counter image](assets/readme-files/JShint.png)
 
 ### Accessibility
 

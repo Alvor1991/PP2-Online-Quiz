@@ -133,7 +133,7 @@ function displayQuestion(){
     if (questionIndex === 0) {
         document.querySelector('.quiz-container h1').textContent = 'Let the Quiz Begin!';
     } else {
-        document.querySelector('.quiz-container h1').textContent = 'Music Quiz';
+        document.querySelector('.quiz-container h1').textContent = '1970s Music Quiz';
     }
 
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
