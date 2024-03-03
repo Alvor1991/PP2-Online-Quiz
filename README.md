@@ -255,19 +255,19 @@ The Player Score feature adds significant value to the overall user experience b
 
 * Common Elements Testing
 
- ### Welcome Modal
+ #### Welcome Modal
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Start Quiz | Clicking on the Start Quiz button will bring the user to the Music Quiz.| PASS
 Quiz Rules | Clicking on the Quiz Rules button will bring the user to the Quiz Rules Modal.| PASS
 
- ### Quiz Rules
+ #### Quiz Rules
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Start Quiz | Clicking on the Start Quiz button will bring the user to the Music Quiz.| PASS
 Home Icon| Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 
-#### Music Quiz
+ #### Music Quiz
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Click Answer | Clicking an answer will highlight the correct (green) and incorrect (red) answers for that question.| PASS
@@ -278,7 +278,7 @@ Score Counter | The score counter updates as each question is completed| PASS
 Home Icon | Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Music Quiz'.| PASS
 
-### Player Score
+ #### Player Score
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
 Player Score | The user's score is displayed once user completes the quiz.| PASS
