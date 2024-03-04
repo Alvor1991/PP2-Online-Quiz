@@ -1,3 +1,4 @@
+/** Quiz questions and answers */ 
 const quiz = [
     {
         question: "What was the title of Michael Jackson's first solo album, in 1979?",
@@ -103,7 +104,7 @@ const quiz = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const progressBar = document.getElementById("progress-bar"); 
+const progressBar = document.getElementById("progress-bar");
 const correctAnswersElement = document.getElementById("correct-answers");
 const incorrectAnswersElement = document.getElementById("incorrect-answers");
 
@@ -111,21 +112,21 @@ const incorrectAnswersElement = document.getElementById("incorrect-answers");
 let questionIndex = 0;
 let playerScore = 0;
 
-/** Function to begin the quiz */ 
-function beginQuiz(){
+/** Function to begin the quiz */
+function beginQuiz() {
     questionIndex = 0;
     playerScore = 0;
     nextButton.innerHTML = "Next";
-    updateProgressBar(); 
-    progressBar.style.width = "0%"; 
-    displayQuestion();  
+    updateProgressBar();
+    progressBar.style.width = "0%";
+    displayQuestion();
     correctAnswersElement.textContent = '0';
     incorrectAnswersElement.textContent = '0';
     document.getElementById("score").style.display = "block";
 }
 
-/** Function to display question */ 
-function displayQuestion(){
+/** Function to display question */
+function displayQuestion() {
     clearAnswer();
     let currentQuestion = quiz[questionIndex];
     let questionNo = questionIndex + 1;
@@ -136,41 +137,41 @@ function displayQuestion(){
         document.querySelector('.quiz-container h1').textContent = '1970s Music Quiz';
     }
 
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
-        if(answer.correct){
+        if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
         button.addEventListener("click", selectAnswer);
     });
-    updateProgressBar(); 
+    updateProgressBar();
 }
 
-/** Function to clear answer and reset */ 
-function clearAnswer(){
+/** Function to clear answer and reset */
+function clearAnswer() {
     nextButton.style.display = "none";
-    while(answerButtons.firstChild){
+    while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-/** Function when user clicks on answer */ 
-function selectAnswer(e){
+/** Function when user clicks on answer */
+function selectAnswer(e) {
     const clickedButton = e.target;
     const correctAnswer = clickedButton.dataset.correct === "true";
-    if(correctAnswer){
+    if (correctAnswer) {
         clickedButton.classList.add("correct");
         playerScore++;
-    }else{
+    } else {
         clickedButton.classList.add("incorrect");
     }
     Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct === "true"){
+        if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
         button.disabled = true;
@@ -179,14 +180,14 @@ function selectAnswer(e){
     scoreCounter();
 }
 
-/** Function for score counter feature */ 
+/** Function for score counter feature */
 function scoreCounter() {
     correctAnswersElement.textContent = playerScore;
     incorrectAnswersElement.textContent = questionIndex + 1 - playerScore;
 }
 
-/** Function to display score */ 
-function displayScore(){
+/** Function to display score */
+function displayScore() {
     clearAnswer();
     let scoreMessage = "";
     if (playerScore === 10) {
@@ -204,47 +205,47 @@ function displayScore(){
     nextButton.style.display = "block";
 }
 
-/** Function to update progress bar */ 
+/** Function to update progress bar */
 function updateProgressBar() {
     const progress = ((questionIndex) / quiz.length) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
 /** Function to handle next button click */
-function handleNextButton(){
+function handleNextButton() {
     questionIndex++;
     updateProgressBar();
-    if(questionIndex < quiz.length){
+    if (questionIndex < quiz.length) {
         displayQuestion();
-    }else{
+    } else {
         displayScore();
     }
 }
 
-/** Event listener for next button click */ 
-nextButton.addEventListener("click", ()=>{
-    if(questionIndex < quiz.length){
+/** Event listener for next button click */
+nextButton.addEventListener("click", () => {
+    if (questionIndex < quiz.length) {
         handleNextButton();
-    }else{
+    } else {
         beginQuiz();
     }
 });
 
 beginQuiz();
 
-/** Function to hide quiz container */ 
+/** Function to hide quiz container */
 function hideQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
-    quizContainer.style.display = "none"; 
+    quizContainer.style.display = "none";
 }
 
-/** Function to show quiz container */ 
+/** Function to show quiz container */
 function showQuizContainer() {
     const quizContainer = document.querySelector(".quiz-container");
-    quizContainer.style.display = "block"; 
+    quizContainer.style.display = "block";
 }
 
-/** Function to show welcome modal */ 
+/** Function to show welcome modal */
 function showWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
     var startButton = document.getElementById("start-btn");
@@ -272,16 +273,16 @@ var rulesModal = document.getElementById("rules-modal");
 var homeButtons = document.getElementsByClassName("home");
 
 
-/** Function to go welcome modal from the home icon */ 
+/** Function to go welcome modal from the home icon */
 function goToWelcomeModal() {
     var welcomeModal = document.getElementById("welcome-modal");
     var modals = document.getElementsByClassName("modal");
-    
+
     for (var i = 0; i < modals.length; i++) {
-        modals[i].style.display = "none"; 
+        modals[i].style.display = "none";
     }
-    
-    welcomeModal.style.display = "block"; 
+
+    welcomeModal.style.display = "block";
     hideQuizContainer(); // 
 }
 
@@ -295,5 +296,5 @@ var startFromRules = document.getElementById("rules-btn");
 startFromRules.onclick = function() {
     rulesModal.style.display = "none";
     beginQuiz();
-    showQuizContainer(); 
+    showQuizContainer();
 };

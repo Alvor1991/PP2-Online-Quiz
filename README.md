@@ -88,7 +88,7 @@ Here are the main features of my website and the value they bring to users. Each
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-intro.png)
 
-    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. 
+    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introduction informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. 
 
 * **Navigation Buttons**
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
@@ -96,7 +96,6 @@ Here are the main features of my website and the value they bring to users. Each
     - The Navigation Buttons provide users with clear and accessible options to either start the quiz or view quiz rules. This straightforward design element ensures ease of use and navigation throughout the quiz experience. By offering intuitive choices, users can quickly progress through the quiz or seek additional information as needed, enhancing overall usability and engagement.  
 
 ### Quiz Rules
-
 ![Intro image](assets/readme-files/quiz-rules.png)
 
     - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature enhances user comprehension and minimizes confusion, thereby optimizing the overall user experience. 
