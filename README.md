@@ -15,8 +15,9 @@ Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
     4. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [Welcome Modal](#welcome-modal)
-    2. [Music Quiz](#music-quiz)
-    3. [Player Score](#player-score)
+    2. [Quiz Rules](#quiz-rules)
+    3. [Music Quiz](#music-quiz)
+    4. [Quiz Score](#quiz-score)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -73,21 +74,21 @@ Page | Desktop Version
 Welcome Modal | ![Welcome Modal wireframe image](assets/wireframes/desktop-welcome-modal.png) 
 Quiz Rules | ![Quiz Rules wireframe image](assets/wireframes/desktop-quiz-rules.png) 
 Quiz | ![Quiz wireframe image](assets/wireframes/desktop-quiz.png) 
-Player Score | ![Player Score wireframe image](assets/wireframes/desktop-player-score.png)
+Quiz Score | ![Quiz Score wireframe image](assets/wireframes/desktop-player-score.png)
 
 [Back to top ⇧](#music-quiz)
 
 
 ## Features
 
-Here are the main features of my website and the value they bring to users. Each feature within the website's quiz interface serves a distinct purpose, collectively enhancing user engagement and satisfaction. From the informative Quiz Intro to the interactive Answer Colour feedback, each element contributes to a seamless and enjoyable quiz experience. 
+Here are the main features of my website and the value they bring to users. Each feature within the quiz interface serves a distinct purpose, collectively enhancing user engagement & satisfaction. From the informative Quiz Intro to the interactive Answer Colour feedback, each element contributes to a seamless & enjoyable quiz experience. 
 
 ### Welcome Modal
 
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-intro.png)
 
-    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory content not only informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. With engaging and purposeful messaging, the Quiz Intro feature piques users' curiosity and motivates them to delve further into the quiz content. 
+    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. 
 
 * **Navigation Buttons**
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
@@ -96,10 +97,9 @@ Here are the main features of my website and the value they bring to users. Each
 
 ### Quiz Rules
 
-* **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-rules.png)
 
-    - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature not only enhances user comprehension but also minimizes confusion and frustration, thereby optimizing the overall user experience. 
+    - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature enhances user comprehension and minimizes confusion, thereby optimizing the overall user experience. 
 
 ### Music Quiz
 
@@ -115,11 +115,11 @@ Here are the main features of my website and the value they bring to users. Each
 
 * **Score Counter**
 ![Score Counter image](assets/readme-files/score-counter.png)
-    - The Score Counter feature serves as a vital component in enhancing user engagement and motivation throughout the quiz experience. By dynamically updating in real-time as users progress through the quiz, it provides immediate feedback on their performance, reinforcing their sense of accomplishment and investment in the activity. The visual representation of the score not only offers users a clear indication of their current standing but also stimulates a sense of progression and achievement as they move closer to completing the quiz. 
+    - The Score Counter feature serves as a vital component in enhancing user engagement and motivation throughout the quiz experience. By dynamically updating in real-time as users progress through the quiz, it provides immediate feedback on their performance, reinforcing their sense of accomplishment and investment in the activity. The visual representation of the score offers users a clear indication of their current standing, while stimulating a sense of progression and achievement.
 
-### Player Score 
+### Quiz Score 
 
-The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation to play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress.
+The Quiz Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation to play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress.
 
 * **OK Score (less than 5)**
 ![OK Score image](assets/readme-files/ok-score.png)
@@ -279,10 +279,10 @@ Score Counter | The score counter updates as each question is completed.| PASS
 Home Icon | Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Music Quiz'.| PASS
 
- #### Player Score
+ #### Quiz Score
 TEST            | OUTCOME                          | PASS / FAIL  
 --------------- | -------------------------------- | ---------------
-Player Score | The user's score is displayed once user completes the quiz.| PASS
+Quiz Score | The user's score is displayed once user completes the quiz.| PASS
 Progress Bar| The progress bar is full.| PASS
 Play Again| Clicking on the Play Again button will bring the user back to the start of the quiz.| PASS
 Home Icon| Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
@@ -297,7 +297,7 @@ Welcome Modal | ![Desktop welcome modal](assets/readme-files/desktop-welcome-mod
 Quiz Rules | ![Desktop quiz rules](assets/readme-files/desktop-quiz-rules.png) | ![Mobile quiz rules](assets/readme-files/mobile-quiz-rules.png)
 Quiz Begin | ![Desktop quiz begin](assets/readme-files/desktop-quiz-begin.png) | ![Mobile quiz begin](assets/readme-files/mobile-quiz-begin.png)
 Quiz Progress | ![Desktop quiz progress](assets/readme-files/desktop-quiz-progress.png) | ![Mobile quiz progress](assets/readme-files/mobile-quiz-progress.png)
-Player Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
+Quiz Score | ![Desktop quiz score](assets/readme-files/desktop-quiz-score.png) | ![Mobile quiz score](assets/readme-files/mobile-quiz-score.png)
 
 [Back to top ⇧](#music-quiz)
 
