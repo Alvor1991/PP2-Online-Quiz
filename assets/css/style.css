@@ -27,7 +27,7 @@ body {
 
 .progress-bar {
   height: 20px;
-  background-color: green;
+  background-color: #008000;
   border-radius: 5px;
   transition: width 0.3s ease-in-out;
   max-width: 100%;

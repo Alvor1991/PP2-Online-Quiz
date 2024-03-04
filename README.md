@@ -1,4 +1,4 @@
-# Music Quiz 
+# 1970s Music Quiz 
 
 ![Las Tacos mockup images](assets/readme-files/mockup-image.png)
 
@@ -45,7 +45,7 @@ Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
 
 * Offer an engaging quiz experience - create a fun and interactive quiz format that challenges users' knowledge while providing entertainment and nostalgia.
 
-* Ensure seamless navigation - design a user-friendly interface that allows effortless movement between quiz questions and other website sections.
+* Ensure seamless navigation - design a user-friendly interface that allows effortless movement between quiz questions.
 
 ### User Stories
 
@@ -53,19 +53,20 @@ Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
 
 * As a user, I want engaging & challenging quiz questions that provide an enjoyable experience & stimulate my curiosity about 1970s music.
 
-* As a user, I want clear instructions on how to play the quiz & understand the rules, ensuring a smooth & frustration-free experience.
+* As a user, I want clear instructions on how to play the quiz and understand the rules, ensuring a smooth and frustration-free experience.
 
 ### Color Scheme
+![Color scheme image](assets/readme-files/colour-scheme.png)
 
 The color scheme for the quiz interface features a green background wallpaper, creating a visually appealing backdrop for the quiz content. The quiz itself is presented within a white modal, providing a clean and focused environment for users to engage with the questions. To ensure readability and clarity, black text is employed within the modal, offering a stark contrast against the white background.
 
 In the feedback system, red colors (#e56d6d) are utilized to indicate incorrect scores, drawing attention to areas where users may need improvement or further review. Conversely, green colors (#83d5a3) are employed to signify correct scores, offering positive reinforcement and highlighting successful responses.
 
-Overall, this color scheme prioritizes clarity, readability, and user engagement, enhancing the overall experience of the online quiz.
+Overall, this color scheme prioritizes clarity, readability, and user engagement, enhancing the overall experience.
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial layout designs. As you will see in the features section, I have since added a progress bar and a score counter.  
+[Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial layout designs. As you will see in the features section, I have since added a progress bar and a score counter and home icon buttons. It is a simple design that will also look similar on mobile.  
 
 Page | Desktop Version
 --- | ---
@@ -86,19 +87,19 @@ Here are the main features of my website and the value they bring to users. Each
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-intro.png)
 
-    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory content not only informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. With engaging and purposeful messaging, the Quiz Intro feature piques users' curiosity and motivates them to delve further into the quiz content. Overall, it plays a crucial role in laying the foundation for a positive user experience, ensuring users are well-prepared and excited to embark on the quiz. 
+    - The Quiz Intro feature serves as an informative gateway, offering users a glimpse into the purpose and structure of the quiz. By providing clear insights into what users can expect, it sets the stage for an engaging and rewarding experience. This introductory content not only informs users about the quiz's objectives but also instills a sense of anticipation, encouraging active participation. With engaging and purposeful messaging, the Quiz Intro feature piques users' curiosity and motivates them to delve further into the quiz content. 
 
 * **Navigation Buttons**
 ![Nav buttons image](assets/readme-files/nav-buttons.png)
 
-    - The Navigation Buttons provide users with clear and accessible options to either start the quiz or view quiz rules. This straightforward design element ensures ease of use and navigation throughout the quiz experience. By offering intuitive choices, users can quickly progress through the quiz or seek additional information as needed, enhancing overall usability and engagement. The simplicity of the navigation buttons streamlines the user journey, minimizing barriers to entry and allowing participants to focus on the quiz content itself. 
+    - The Navigation Buttons provide users with clear and accessible options to either start the quiz or view quiz rules. This straightforward design element ensures ease of use and navigation throughout the quiz experience. By offering intuitive choices, users can quickly progress through the quiz or seek additional information as needed, enhancing overall usability and engagement.  
 
 ### Quiz Rules
 
 * **Quiz Intro**
 ![Intro image](assets/readme-files/quiz-rules.png)
 
-    - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature not only enhances user comprehension but also minimizes confusion and frustration, thereby optimizing the overall user experience. With straightforward explanations, users can confidently engage with the quiz, maximizing their enjoyment and learning potential..
+    - The Quiz Rules feature offers clear instructions on how the quiz works, ensuring users understand the mechanics and objectives before they begin. By providing concise and accessible guidelines, it sets expectations and helps users navigate the quiz effectively. This feature not only enhances user comprehension but also minimizes confusion and frustration, thereby optimizing the overall user experience. 
 
 ### Music Quiz
 
@@ -118,7 +119,7 @@ Here are the main features of my website and the value they bring to users. Each
 
 ### Player Score 
 
-The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation to play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress, driving users to strive for higher scores and engage more deeply with the quiz content.
+The Player Score feature adds significant value to the overall user experience by providing personalized feedback based on the user's performance in the quiz. It not only serves as a means of gauging their success but also offers encouragement and motivation to play the quiz again. By categorizing scores into different levels such as "OK," "Good," "Great," and "Perfect," this feature effectively communicates to users where they stand relative to their peers and their own potential. Moreover, it creates a sense of achievement and progress.
 
 * **OK Score (less than 5)**
 ![OK Score image](assets/readme-files/ok-score.png)
@@ -152,7 +153,7 @@ The Player Score feature adds significant value to the overall user experience b
 ### Frameworks, Libraries and Programs Used
 
 * [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used throughout all pages to add icons to create a better visual experience for UX purposes.
+    - Font Awesome was used to add icons and create a better visual experience for UX purposes.
 
 * [GitPod](https://www.gitpod.io)
     - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -211,7 +212,7 @@ The Player Score feature adds significant value to the overall user experience b
 
 * The [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and [JSHint](https://jshint.com) services were used to validate all pages of the project to ensure there were no syntax errors.
 
-    - W3C Markup Validator found errors found errors regarding duplicate ID values for the home button icon. I replaced these IDs with classes
+    - W3C Markup Validator found errors found errors regarding duplicate ID values for the home button icon. I replaced these IDs with classes.
     
     - W3C CSS Validator found no errors or warnings on my CSS.
 
@@ -274,7 +275,7 @@ Click Answer | Clicking an answer will highlight the correct (green) and incorre
 Post click answer | Once an answer is selected, all other answers will be disabled and a Next button will appear.| PASS
 Next Button | Clicking on the Next button will bring the user to the next question.| PASS
 Progress Bar | The progress bar updates as each question is completed.| PASS
-Score Counter | The score counter updates as each question is completed| PASS
+Score Counter | The score counter updates as each question is completed.| PASS
 Home Icon | Clicking on the home icon button will bring the user back to the Welcome Modal.| PASS
 Title Change | Once user moves to question 2, the quiz title will change from 'Let the Quiz Begin!' to 'Music Quiz'.| PASS
 
