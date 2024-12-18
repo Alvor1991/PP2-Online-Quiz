@@ -4,7 +4,7 @@
 
 1970s Music Quiz is an online quiz dedicated to the iconic sounds of the 1970s. Users can enjoy a fun and interactive experience by testing their knowledge of 1970s music in a quiz format. The website offers an engaging way to spend leisure time while immersing oneself in the sounds of a nostalgic era.
 
-Visit the deployed website [here](https://alvor1991.github.io/Online-Quiz/).
+Visit the deployed website [here](https://alvor1991.github.io/PP2-Online-Quiz/).
 
 ## Table of Contents
 
